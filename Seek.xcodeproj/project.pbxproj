@@ -14,6 +14,7 @@
 		C85245FE1E331A3C00125BF9 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85245FD1E331A3C00125BF9 /* ShareViewController.swift */; };
 		C85246011E331A3C00125BF9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85245FF1E331A3C00125BF9 /* MainInterface.storyboard */; };
 		C85246051E331A3C00125BF9 /* YouTubeSeek.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C85245FB1E331A3C00125BF9 /* YouTubeSeek.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C852460D1E33BC5B00125BF9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C852460C1E33BC5B00125BF9 /* ListTableViewController.swift */; };
 		C85BEF591E32F256002AB484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BEF581E32F256002AB484 /* AppDelegate.swift */; };
 		C85BEF5E1E32F256002AB484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF5C1E32F256002AB484 /* Main.storyboard */; };
 		C85BEF601E32F256002AB484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF5F1E32F256002AB484 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		C85246021E331A3C00125BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C852460A1E3349DD00125BF9 /* Seek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seek.entitlements; sourceTree = "<group>"; };
 		C852460B1E33589700125BF9 /* YouTubeSeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeSeek.entitlements; sourceTree = "<group>"; };
+		C852460C1E33BC5B00125BF9 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		C85BEF551E32F256002AB484 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85BEF581E32F256002AB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85BEF5D1E32F256002AB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				C85BEF5C1E32F256002AB484 /* Main.storyboard */,
 				C85245ED1E32FCAB00125BF9 /* SplashViewController.swift */,
 				C85245F51E330D9400125BF9 /* SearchQueryViewController.swift */,
+				C852460C1E33BC5B00125BF9 /* ListTableViewController.swift */,
 				C85BEF5F1E32F256002AB484 /* Assets.xcassets */,
 				C85BEF611E32F256002AB484 /* LaunchScreen.storyboard */,
 				C85BEF641E32F256002AB484 /* Info.plist */,
@@ -328,6 +331,7 @@
 				C85245EE1E32FCAB00125BF9 /* SplashViewController.swift in Sources */,
 				C85245F61E330D9400125BF9 /* SearchQueryViewController.swift in Sources */,
 				C85BEF591E32F256002AB484 /* AppDelegate.swift in Sources */,
+				C852460D1E33BC5B00125BF9 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
