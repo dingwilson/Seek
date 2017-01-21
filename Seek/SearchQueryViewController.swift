@@ -17,8 +17,10 @@ class SearchQueryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
 
-        self.playerView.load(withVideoId: selectedUrl)
+        self.playerView.load(withVideoId: youtubeId)
     }
 
     /*

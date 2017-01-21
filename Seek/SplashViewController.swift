@@ -27,6 +27,17 @@ class SplashViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.7)
+        
+        let appGroupId = "group.com.wilsonding.Seek"
+        
+        let defaults = UserDefaults(suiteName: appGroupId)
+        
+        if let url = defaults?.string(forKey: "youtubeUrl") {
+            if url != "" {
+                urlField.text = url
+                defaults?.setValue("", forKey: "youtubeUrl")
+            }
+        }
     }
     
     private func createAlert(title: String, message: String) {

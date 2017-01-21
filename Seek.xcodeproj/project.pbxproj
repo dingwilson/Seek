@@ -54,6 +54,7 @@
 		C85245FD1E331A3C00125BF9 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		C85246001E331A3C00125BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C85246021E331A3C00125BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C852460A1E3349DD00125BF9 /* Seek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seek.entitlements; sourceTree = "<group>"; };
 		C85BEF551E32F256002AB484 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85BEF581E32F256002AB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85BEF5D1E32F256002AB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		C85BEF571E32F256002AB484 /* Seek */ = {
 			isa = PBXGroup;
 			children = (
+				C852460A1E3349DD00125BF9 /* Seek.entitlements */,
 				C85BEF581E32F256002AB484 /* AppDelegate.swift */,
 				C85BEF5C1E32F256002AB484 /* Main.storyboard */,
 				C85245ED1E32FCAB00125BF9 /* SplashViewController.swift */,
@@ -206,6 +208,11 @@
 						DevelopmentTeam = Z88HQX98VL;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -479,6 +486,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Seek/Seek.entitlements;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
 				INFOPLIST_FILE = Seek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -496,6 +504,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Seek/Seek.entitlements;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
 				INFOPLIST_FILE = Seek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
