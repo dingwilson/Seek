@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7671A5FFC1821F47FA798B01 /* Pods_Seek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC5ECEF639C63C8B2B7F869 /* Pods_Seek.framework */; };
 		C85BEF591E32F256002AB484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BEF581E32F256002AB484 /* AppDelegate.swift */; };
 		C85BEF5B1E32F256002AB484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BEF5A1E32F256002AB484 /* ViewController.swift */; };
 		C85BEF5E1E32F256002AB484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF5C1E32F256002AB484 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55E780A887A162C5AAB933E9 /* Pods-Seek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seek/Pods-Seek.debug.xcconfig"; sourceTree = "<group>"; };
+		5F15BCB937B8C9AE9A066ECE /* Pods-Seek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seek/Pods-Seek.release.xcconfig"; sourceTree = "<group>"; };
 		C85BEF551E32F256002AB484 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85BEF581E32F256002AB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85BEF5A1E32F256002AB484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		C85BEF5F1E32F256002AB484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C85BEF621E32F256002AB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C85BEF641E32F256002AB484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC5ECEF639C63C8B2B7F869 /* Pods_Seek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7671A5FFC1821F47FA798B01 /* Pods_Seek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		539AF02A635108E978760B5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E780A887A162C5AAB933E9 /* Pods-Seek.debug.xcconfig */,
+				5F15BCB937B8C9AE9A066ECE /* Pods-Seek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4E130F1D6C3F95DA12627DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC5ECEF639C63C8B2B7F869 /* Pods_Seek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C85BEF4C1E32F255002AB484 = {
 			isa = PBXGroup;
 			children = (
 				C85BEF571E32F256002AB484 /* Seek */,
 				C85BEF561E32F256002AB484 /* Products */,
+				539AF02A635108E978760B5D /* Pods */,
+				C4E130F1D6C3F95DA12627DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C85BEF671E32F256002AB484 /* Build configuration list for PBXNativeTarget "Seek" */;
 			buildPhases = (
+				6462D0F33F7442759D7EE5F6 /* [CP] Check Pods Manifest.lock */,
 				C85BEF511E32F255002AB484 /* Sources */,
 				C85BEF521E32F255002AB484 /* Frameworks */,
 				C85BEF531E32F255002AB484 /* Resources */,
+				1174D25EECA4A9291A354C5C /* [CP] Embed Pods Frameworks */,
+				F4CE92575F9C112D9F3C4020 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1174D25EECA4A9291A354C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seek/Pods-Seek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6462D0F33F7442759D7EE5F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CE92575F9C112D9F3C4020 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seek/Pods-Seek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C85BEF511E32F255002AB484 /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		C85BEF681E32F256002AB484 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E780A887A162C5AAB933E9 /* Pods-Seek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
@@ -270,6 +346,7 @@
 		};
 		C85BEF691E32F256002AB484 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F15BCB937B8C9AE9A066ECE /* Pods-Seek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z88HQX98VL;

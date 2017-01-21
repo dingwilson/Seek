@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.3.0)
+  - SwiftVideoBackground (0.04)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - SwiftVideoBackground
+  - youtube-ios-player-helper (~> 0.1.4)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  SwiftVideoBackground: c0253281fcda5047c36067cbb852d8061513058b
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 5668dff0272539a8eb144a3bc793188eed71a34b
+
+COCOAPODS: 1.2.0.rc.1

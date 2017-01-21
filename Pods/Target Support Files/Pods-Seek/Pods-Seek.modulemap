@@ -1,0 +1,6 @@
+framework module Pods_Seek {
+  umbrella header "Pods-Seek-umbrella.h"
+
+  export *
+  module * { export * }
+}
