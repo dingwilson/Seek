@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-Seek.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,12 +37,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>20A8AD6BF2AF07E0CCBBC9282728B29A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4102BE0C87BD71DA6679424A9767244D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>64D57C8AD312A132BFBF93CAA198E72A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEC2F049D622D87F6E10FA5569E0F0B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

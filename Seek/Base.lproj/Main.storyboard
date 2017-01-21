@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Seek" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,87 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="ux0-Uv-Iv4" customClass="BackgroundVideo" customModule="SwiftVideoBackground">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="352"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="YouTube URL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-gf-ebM">
+                                <rect key="frame" x="16" y="360" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lCR-Ri-80F"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-fx-BC6">
+                                <rect key="frame" x="77" y="194" width="221" height="96"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="72"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmL-bA-s1N">
+                                <rect key="frame" x="146" y="429" width="82" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Svr-Cw-392"/>
+                                    <constraint firstAttribute="width" constant="82" id="vXD-F1-7E1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Seek">
+                                    <color key="titleColor" white="0.84925672740000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressSeekButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ooA-mi-SKG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="centerX" secondItem="rMe-gf-ebM" secondAttribute="centerX" id="19y-l3-7fn"/>
+                            <constraint firstAttribute="trailing" secondItem="ux0-Uv-Iv4" secondAttribute="trailing" id="5JG-Cl-mvC"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="centerX" secondItem="XmL-bA-s1N" secondAttribute="centerX" id="Ifd-AA-Jad"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XmL-bA-s1N" secondAttribute="bottom" constant="197" id="MAx-on-2dr"/>
+                            <constraint firstItem="XmL-bA-s1N" firstAttribute="top" secondItem="rMe-gf-ebM" secondAttribute="bottom" constant="39" id="Vh6-IB-w0f"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xdv-dd-A6g"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="centerX" secondItem="MGa-fx-BC6" secondAttribute="centerX" id="Xm9-fP-RFr"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YUV-j0-Lys"/>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="61" id="a4h-su-UqD"/>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="174" id="dI3-Vy-Uxd"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="ux0-Uv-Iv4" secondAttribute="bottom" constant="8" symbolic="YES" id="fas-dc-nvE"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="MGa-fx-BC6" secondAttribute="bottom" constant="70" id="pZj-Pn-hlI"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="poA-5g-UZ2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundVideo" destination="ux0-Uv-Iv4" id="FDW-9z-sYp"/>
+                        <outlet property="seekButton" destination="XmL-bA-s1N" id="Z2M-tJ-lgk"/>
+                        <outlet property="urlField" destination="rMe-gf-ebM" id="DQU-bB-bRg"/>
+                        <segue destination="TTm-3H-UF1" kind="show" identifier="goToSearchQuery" id="Lzi-kU-vu8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--Search Query View Controller-->
+        <scene sceneID="q3p-a4-Itj">
+            <objects>
+                <viewController id="TTm-3H-UF1" customClass="SearchQueryViewController" customModule="Seek" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DNH-YW-4Yc"/>
+                        <viewControllerLayoutGuide type="bottom" id="WZA-o7-oGz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WLM-fS-KCv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cH-nE-mB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="137"/>
         </scene>
     </scenes>
 </document>
