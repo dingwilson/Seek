@@ -15,7 +15,7 @@ class SearchQueryViewController: UIViewController {
     
     var selectedUrl = ""
 
-    override func viewDidLoad() {
+    override func viewDidLoad() 
         super.viewDidLoad()
         
         let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")

@@ -24,8 +24,6 @@ class ShareViewController: SLComposeServiceViewController {
         
         if let defaults = UserDefaults(suiteName: appGroupId) {
             defaults.setValue(featureRemovedString, forKey: "youtubeUrl")
-        } else {
-            print("FAIL FAIL")
         }
     
         // Inform the host that we're done, so it un-blocks its UI. Note: Alternatively you could call super's -didSelectPost, which will similarly complete the extension context.
