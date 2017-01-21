@@ -29,6 +29,10 @@ class SplashViewController: UIViewController {
         self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.65)
         
         seekButton.layer.cornerRadius = 10
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         let appGroupId = "group.com.wilsonding.Seek"
         
