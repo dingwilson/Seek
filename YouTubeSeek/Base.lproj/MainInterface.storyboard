@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,68 +20,8 @@
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="wbc-yd-nQP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNh-fQ-vQ2">
-                                <rect key="frame" x="67" y="224" width="240" height="218"/>
-                                <subviews>
-                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOF-8z-m9o">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
-                                        <items>
-                                            <barButtonItem title="Cancel" id="ubV-Ka-nUE">
-                                                <connections>
-                                                    <action selector="didPressCancelButton:" destination="j1y-V4-xli" id="dk6-pG-jPk"/>
-                                                </connections>
-                                            </barButtonItem>
-                                        </items>
-                                    </toolbar>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="50n-DE-m5A">
-                                        <rect key="frame" x="0.0" y="44" width="240" height="136"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9L-Cc-d07">
-                                        <rect key="frame" x="0.0" y="188" width="240" height="30"/>
-                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="BIY-el-lE2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <state key="normal" title="Send To Seek App">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="didPressSendButton:" destination="j1y-V4-xli" eventType="touchUpInside" id="sgm-Hx-dh7"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="z9L-Cc-d07" firstAttribute="top" secondItem="50n-DE-m5A" secondAttribute="bottom" constant="8" symbolic="YES" id="0NR-aG-rHo"/>
-                                    <constraint firstItem="SOF-8z-m9o" firstAttribute="leading" secondItem="MNh-fQ-vQ2" secondAttribute="leading" id="5SB-hz-Sgb"/>
-                                    <constraint firstAttribute="trailing" secondItem="SOF-8z-m9o" secondAttribute="trailing" id="66H-x1-T78"/>
-                                    <constraint firstItem="50n-DE-m5A" firstAttribute="trailing" secondItem="z9L-Cc-d07" secondAttribute="trailing" id="Ddz-o1-hIx"/>
-                                    <constraint firstAttribute="bottom" secondItem="z9L-Cc-d07" secondAttribute="bottom" id="Du4-8b-CvB"/>
-                                    <constraint firstItem="SOF-8z-m9o" firstAttribute="trailing" secondItem="50n-DE-m5A" secondAttribute="trailing" id="PbU-SZ-GRl"/>
-                                    <constraint firstItem="50n-DE-m5A" firstAttribute="top" secondItem="SOF-8z-m9o" secondAttribute="bottom" id="lQK-bp-PQ7"/>
-                                    <constraint firstItem="50n-DE-m5A" firstAttribute="leading" secondItem="z9L-Cc-d07" secondAttribute="leading" id="oxu-us-RtU"/>
-                                    <constraint firstItem="SOF-8z-m9o" firstAttribute="top" secondItem="MNh-fQ-vQ2" secondAttribute="top" id="xZ0-EO-Crb"/>
-                                    <constraint firstItem="SOF-8z-m9o" firstAttribute="leading" secondItem="50n-DE-m5A" secondAttribute="leading" id="xxC-Kk-TrP"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="MNh-fQ-vQ2" firstAttribute="top" secondItem="8bI-gs-bmD" secondAttribute="bottom" constant="204" id="0FH-0m-fi0"/>
-                            <constraint firstItem="MNh-fQ-vQ2" firstAttribute="centerY" secondItem="wbc-yd-nQP" secondAttribute="centerY" id="Dj2-iC-Gvl"/>
-                            <constraint firstItem="MNh-fQ-vQ2" firstAttribute="centerX" secondItem="wbc-yd-nQP" secondAttribute="centerX" id="dcf-nR-RYn"/>
-                            <constraint firstItem="MNh-fQ-vQ2" firstAttribute="leading" secondItem="wbc-yd-nQP" secondAttribute="leadingMargin" constant="51" id="zEi-jb-6dk"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textView" destination="50n-DE-m5A" id="Hge-KX-omc"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CEy-Cv-SGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
