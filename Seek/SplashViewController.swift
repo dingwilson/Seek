@@ -26,7 +26,7 @@ class SplashViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.7)
+        self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.65)
         
         seekButton.layer.cornerRadius = 10
         

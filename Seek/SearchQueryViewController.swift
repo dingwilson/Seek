@@ -15,7 +15,6 @@ class SearchQueryViewController: UIViewController {
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var seekButton: UIButton!
     
-    
     var selectedUrl = ""
 
     override func viewDidLoad() {
@@ -28,8 +27,29 @@ class SearchQueryViewController: UIViewController {
         self.playerView.load(withVideoId: youtubeId)
     }
     
-    @IBAction func didPressSeekButton(_ sender: Any) {
+    private func createAlert(title: String, message: String) {
+        let alert = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: UIAlertControllerStyle.alert
+        )
         
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        
+        present(alert, animated: true, completion: nil)
+    }
+    
+    func sendDataToServerWith(id: String, query: String) {
+        
+    }
+    
+    @IBAction func didPressSeekButton(_ sender: Any) {
+        if self.searchTextField.text != "" {
+            let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com", with: "")
+            sendDataToServerWith(id: youtubeId, query: searchTextField.text!)
+        } else {
+            createAlert(title:"Error", message: "The Search Query is not valid!")
+        }
     }
     
 

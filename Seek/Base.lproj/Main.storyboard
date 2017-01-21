@@ -24,29 +24,23 @@
                         <subviews>
                             <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="ux0-Uv-Iv4" customClass="BackgroundVideo" customModule="SwiftVideoBackground">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="352"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="YouTube URL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-gf-ebM">
                                 <rect key="frame" x="16" y="360" width="343" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="lCR-Ri-80F"/>
+                                    <constraint firstAttribute="height" constant="30" id="iu3-Db-Wfn"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-fx-BC6">
-                                <rect key="frame" x="77" y="194" width="221" height="96"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="72"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XmL-bA-s1N">
                                 <rect key="frame" x="146" y="429" width="82" height="41"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="Svr-Cw-392"/>
-                                    <constraint firstAttribute="width" constant="82" id="vXD-F1-7E1"/>
+                                    <constraint firstAttribute="height" constant="41" id="B1E-fc-H0x"/>
+                                    <constraint firstAttribute="width" constant="82" id="re9-Br-kTf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Seek">
@@ -56,22 +50,40 @@
                                     <action selector="didPressSeekButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ooA-mi-SKG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-fx-BC6">
+                                <rect key="frame" x="77" y="221" width="221" height="69"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="72"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seeking Further into YouTube" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F74-Le-dN8">
+                                <rect key="frame" x="16" y="298" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="td7-U4-8gl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="MGa-fx-BC6" firstAttribute="centerX" secondItem="rMe-gf-ebM" secondAttribute="centerX" id="19y-l3-7fn"/>
-                            <constraint firstAttribute="trailing" secondItem="ux0-Uv-Iv4" secondAttribute="trailing" id="5JG-Cl-mvC"/>
-                            <constraint firstItem="rMe-gf-ebM" firstAttribute="centerX" secondItem="XmL-bA-s1N" secondAttribute="centerX" id="Ifd-AA-Jad"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XmL-bA-s1N" secondAttribute="bottom" constant="197" id="MAx-on-2dr"/>
-                            <constraint firstItem="XmL-bA-s1N" firstAttribute="top" secondItem="rMe-gf-ebM" secondAttribute="bottom" constant="39" id="Vh6-IB-w0f"/>
-                            <constraint firstItem="rMe-gf-ebM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Xdv-dd-A6g"/>
-                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="centerX" secondItem="MGa-fx-BC6" secondAttribute="centerX" id="Xm9-fP-RFr"/>
-                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YUV-j0-Lys"/>
-                            <constraint firstItem="MGa-fx-BC6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="61" id="a4h-su-UqD"/>
-                            <constraint firstItem="MGa-fx-BC6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="174" id="dI3-Vy-Uxd"/>
-                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="ux0-Uv-Iv4" secondAttribute="bottom" constant="8" symbolic="YES" id="fas-dc-nvE"/>
-                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="MGa-fx-BC6" secondAttribute="bottom" constant="70" id="pZj-Pn-hlI"/>
-                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="poA-5g-UZ2"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0Ya-iU-wbP"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="centerX" secondItem="XmL-bA-s1N" secondAttribute="centerX" id="E0P-CM-ho1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XmL-bA-s1N" secondAttribute="bottom" constant="197" id="Gpy-O4-DT6"/>
+                            <constraint firstItem="F74-Le-dN8" firstAttribute="trailing" secondItem="rMe-gf-ebM" secondAttribute="trailing" id="Gsr-ai-uJx"/>
+                            <constraint firstItem="F74-Le-dN8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KbC-E0-ata"/>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="61" id="Kxy-zV-TtZ"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Llh-xI-CN3"/>
+                            <constraint firstItem="ux0-Uv-Iv4" firstAttribute="centerX" secondItem="MGa-fx-BC6" secondAttribute="centerX" id="Njw-l0-Ex2"/>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="centerX" secondItem="F74-Le-dN8" secondAttribute="centerX" id="STb-Oj-bXV"/>
+                            <constraint firstItem="MGa-fx-BC6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="201" id="Sdn-5U-e1H"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="F74-Le-dN8" secondAttribute="bottom" constant="41" id="cLo-5J-Nt8"/>
+                            <constraint firstAttribute="trailing" secondItem="ux0-Uv-Iv4" secondAttribute="trailing" id="eEA-C9-4jY"/>
+                            <constraint firstItem="XmL-bA-s1N" firstAttribute="top" secondItem="rMe-gf-ebM" secondAttribute="bottom" constant="39" id="fJ0-Av-6sc"/>
+                            <constraint firstItem="F74-Le-dN8" firstAttribute="leading" secondItem="rMe-gf-ebM" secondAttribute="leading" id="iIM-FI-rKt"/>
+                            <constraint firstItem="F74-Le-dN8" firstAttribute="top" secondItem="MGa-fx-BC6" secondAttribute="bottom" constant="8" symbolic="YES" id="pok-Dd-Ahg"/>
+                            <constraint firstItem="rMe-gf-ebM" firstAttribute="top" secondItem="ux0-Uv-Iv4" secondAttribute="bottom" constant="8" symbolic="YES" id="xDe-a1-cNv"/>
                         </constraints>
                     </view>
                     <connections>
@@ -99,7 +111,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFT-Wl-9wf" customClass="YTPlayerView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-3T-P86">
                                 <rect key="frame" x="16" y="239" width="343" height="30"/>
