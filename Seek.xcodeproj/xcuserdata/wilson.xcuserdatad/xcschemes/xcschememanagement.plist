@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>YouTubeSeek.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C85245FA1E331A3C00125BF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C85BEF541E32F255002AB484</key>
 		<dict>
 			<key>primary</key>

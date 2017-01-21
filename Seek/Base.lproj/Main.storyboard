@@ -96,12 +96,27 @@
                     <view key="view" contentMode="scaleToFill" id="WLM-fS-KCv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFT-Wl-9wf" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="8Vy-hf-CVf"/>
+                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="436" id="He4-QM-02o"/>
+                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="idK-jt-nae"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="odM-Vr-kB6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playerView" destination="VFT-Wl-9wf" id="XTn-7Z-NTn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cH-nE-mB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1204" y="137"/>
+            <point key="canvasLocation" x="1204" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>

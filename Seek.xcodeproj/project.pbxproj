@@ -11,11 +11,38 @@
 		C85245EE1E32FCAB00125BF9 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85245ED1E32FCAB00125BF9 /* SplashViewController.swift */; };
 		C85245F01E32FDEA00125BF9 /* Background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C85245EF1E32FDEA00125BF9 /* Background.mp4 */; };
 		C85245F61E330D9400125BF9 /* SearchQueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85245F51E330D9400125BF9 /* SearchQueryViewController.swift */; };
+		C85245FE1E331A3C00125BF9 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85245FD1E331A3C00125BF9 /* ShareViewController.swift */; };
+		C85246011E331A3C00125BF9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85245FF1E331A3C00125BF9 /* MainInterface.storyboard */; };
+		C85246051E331A3C00125BF9 /* YouTubeSeek.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C85245FB1E331A3C00125BF9 /* YouTubeSeek.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C85BEF591E32F256002AB484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85BEF581E32F256002AB484 /* AppDelegate.swift */; };
 		C85BEF5E1E32F256002AB484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF5C1E32F256002AB484 /* Main.storyboard */; };
 		C85BEF601E32F256002AB484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF5F1E32F256002AB484 /* Assets.xcassets */; };
 		C85BEF631E32F256002AB484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85BEF611E32F256002AB484 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C85246031E331A3C00125BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C85BEF4D1E32F255002AB484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C85245FA1E331A3C00125BF9;
+			remoteInfo = YouTubeSeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C85246091E331A3C00125BF9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C85246051E331A3C00125BF9 /* YouTubeSeek.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		55E780A887A162C5AAB933E9 /* Pods-Seek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seek/Pods-Seek.debug.xcconfig"; sourceTree = "<group>"; };
@@ -23,6 +50,10 @@
 		C85245ED1E32FCAB00125BF9 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		C85245EF1E32FDEA00125BF9 /* Background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background.mp4; sourceTree = "<group>"; };
 		C85245F51E330D9400125BF9 /* SearchQueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchQueryViewController.swift; sourceTree = "<group>"; };
+		C85245FB1E331A3C00125BF9 /* YouTubeSeek.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = YouTubeSeek.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85245FD1E331A3C00125BF9 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		C85246001E331A3C00125BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C85246021E331A3C00125BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85BEF551E32F256002AB484 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85BEF581E32F256002AB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85BEF5D1E32F256002AB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C85245F81E331A3C00125BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C85BEF521E32F255002AB484 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +99,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C85245FC1E331A3C00125BF9 /* YouTubeSeek */ = {
+			isa = PBXGroup;
+			children = (
+				C85245FD1E331A3C00125BF9 /* ShareViewController.swift */,
+				C85245FF1E331A3C00125BF9 /* MainInterface.storyboard */,
+				C85246021E331A3C00125BF9 /* Info.plist */,
+			);
+			path = YouTubeSeek;
+			sourceTree = "<group>";
+		};
 		C85BEF4C1E32F255002AB484 = {
 			isa = PBXGroup;
 			children = (
 				C85BEF571E32F256002AB484 /* Seek */,
+				C85245FC1E331A3C00125BF9 /* YouTubeSeek */,
 				C85BEF561E32F256002AB484 /* Products */,
 				539AF02A635108E978760B5D /* Pods */,
 				C4E130F1D6C3F95DA12627DD /* Frameworks */,
@@ -75,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				C85BEF551E32F256002AB484 /* Seek.app */,
+				C85245FB1E331A3C00125BF9 /* YouTubeSeek.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +147,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C85245FA1E331A3C00125BF9 /* YouTubeSeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85246061E331A3C00125BF9 /* Build configuration list for PBXNativeTarget "YouTubeSeek" */;
+			buildPhases = (
+				C85245F71E331A3C00125BF9 /* Sources */,
+				C85245F81E331A3C00125BF9 /* Frameworks */,
+				C85245F91E331A3C00125BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubeSeek;
+			productName = YouTubeSeek;
+			productReference = C85245FB1E331A3C00125BF9 /* YouTubeSeek.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		C85BEF541E32F255002AB484 /* Seek */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C85BEF671E32F256002AB484 /* Build configuration list for PBXNativeTarget "Seek" */;
@@ -107,10 +174,12 @@
 				C85BEF531E32F255002AB484 /* Resources */,
 				1174D25EECA4A9291A354C5C /* [CP] Embed Pods Frameworks */,
 				F4CE92575F9C112D9F3C4020 /* [CP] Copy Pods Resources */,
+				C85246091E331A3C00125BF9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C85246041E331A3C00125BF9 /* PBXTargetDependency */,
 			);
 			name = Seek;
 			productName = Seek;
@@ -127,6 +196,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Seek;
 				TargetAttributes = {
+					C85245FA1E331A3C00125BF9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z88HQX98VL;
+						ProvisioningStyle = Automatic;
+					};
 					C85BEF541E32F255002AB484 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Z88HQX98VL;
@@ -149,11 +223,20 @@
 			projectRoot = "";
 			targets = (
 				C85BEF541E32F255002AB484 /* Seek */,
+				C85245FA1E331A3C00125BF9 /* YouTubeSeek */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C85245F91E331A3C00125BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85246011E331A3C00125BF9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C85BEF531E32F255002AB484 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +299,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C85245F71E331A3C00125BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85245FE1E331A3C00125BF9 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C85BEF511E32F255002AB484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,7 +319,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C85246041E331A3C00125BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C85245FA1E331A3C00125BF9 /* YouTubeSeek */;
+			targetProxy = C85246031E331A3C00125BF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		C85245FF1E331A3C00125BF9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85246001E331A3C00125BF9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		C85BEF5C1E32F256002AB484 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -248,6 +355,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C85246071E331A3C00125BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z88HQX98VL;
+				INFOPLIST_FILE = YouTubeSeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.Seek.YouTubeSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C85246081E331A3C00125BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z88HQX98VL;
+				INFOPLIST_FILE = YouTubeSeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilsonding.Seek.YouTubeSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		C85BEF651E32F256002AB484 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55E780A887A162C5AAB933E9 /* Pods-Seek.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
@@ -359,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F15BCB937B8C9AE9A066ECE /* Pods-Seek.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
@@ -373,6 +508,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C85246061E331A3C00125BF9 /* Build configuration list for PBXNativeTarget "YouTubeSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85246071E331A3C00125BF9 /* Debug */,
+				C85246081E331A3C00125BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C85BEF501E32F255002AB484 /* Build configuration list for PBXProject "Seek" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

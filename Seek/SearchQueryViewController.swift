@@ -7,16 +7,18 @@
 //
 
 import UIKit
+import youtube_ios_player_helper
 
 class SearchQueryViewController: UIViewController {
+    
+    @IBOutlet weak var playerView: YTPlayerView!
     
     var selectedUrl = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        print(selectedUrl)
+        self.playerView.load(withVideoId: selectedUrl)
     }
 
     /*
