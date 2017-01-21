@@ -37,6 +37,12 @@ class SplashViewController: UIViewController {
                 urlField.text = url
                 defaults?.setValue("", forKey: "youtubeUrl")
             }
+            
+            else {
+                print("FAILFAIL FAIL")
+            }
+        } else {
+            print("FAILFAIL FAILFAIL FAIL")
         }
     }
     

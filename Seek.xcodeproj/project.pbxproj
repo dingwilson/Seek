@@ -55,6 +55,7 @@
 		C85246001E331A3C00125BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		C85246021E331A3C00125BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C852460A1E3349DD00125BF9 /* Seek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seek.entitlements; sourceTree = "<group>"; };
+		C852460B1E33589700125BF9 /* YouTubeSeek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeSeek.entitlements; sourceTree = "<group>"; };
 		C85BEF551E32F256002AB484 /* Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85BEF581E32F256002AB484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85BEF5D1E32F256002AB484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		C85245FC1E331A3C00125BF9 /* YouTubeSeek */ = {
 			isa = PBXGroup;
 			children = (
+				C852460B1E33589700125BF9 /* YouTubeSeek.entitlements */,
 				C85245FD1E331A3C00125BF9 /* ShareViewController.swift */,
 				C85245FF1E331A3C00125BF9 /* MainInterface.storyboard */,
 				C85246021E331A3C00125BF9 /* Info.plist */,
@@ -202,6 +204,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Z88HQX98VL;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C85BEF541E32F255002AB484 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -365,6 +372,7 @@
 		C85246071E331A3C00125BF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YouTubeSeek/YouTubeSeek.entitlements;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
 				INFOPLIST_FILE = YouTubeSeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -378,6 +386,7 @@
 		C85246081E331A3C00125BF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YouTubeSeek/YouTubeSeek.entitlements;
 				DEVELOPMENT_TEAM = Z88HQX98VL;
 				INFOPLIST_FILE = YouTubeSeek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
