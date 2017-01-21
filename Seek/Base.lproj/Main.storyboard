@@ -33,7 +33,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-fx-BC6">
                                 <rect key="frame" x="77" y="194" width="221" height="96"/>
@@ -101,17 +101,45 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="231"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-3T-P86">
+                                <rect key="frame" x="16" y="239" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-YT-75c">
+                                <rect key="frame" x="146" y="313" width="82" height="41"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="TMU-pT-J3Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Seek">
+                                    <color key="titleColor" white="0.84925672740000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressSeekButton:" destination="TTm-3H-UF1" eventType="touchUpInside" id="8z7-tq-X4g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="8Vy-hf-CVf"/>
-                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="436" id="He4-QM-02o"/>
-                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="idK-jt-nae"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="odM-Vr-kB6"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="centerX" secondItem="dlx-YT-75c" secondAttribute="centerX" id="95l-5m-VbQ"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="9lx-gW-GVP"/>
+                            <constraint firstItem="dlx-YT-75c" firstAttribute="top" secondItem="2t5-3T-P86" secondAttribute="bottom" constant="44" id="Abv-2U-k38"/>
+                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="dlx-YT-75c" secondAttribute="bottom" constant="313" id="HxM-VM-lHh"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leadingMargin" id="bE4-yj-ZXA"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="8" symbolic="YES" id="bnw-jt-h8G"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="centerX" secondItem="2t5-3T-P86" secondAttribute="centerX" id="cOO-bi-yhL"/>
+                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="kiD-VR-5IZ"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="vbW-3m-2fQ"/>
+                            <constraint firstItem="dlx-YT-75c" firstAttribute="centerY" secondItem="WLM-fS-KCv" secondAttribute="centerY" id="vtg-g4-ey9"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="playerView" destination="VFT-Wl-9wf" id="XTn-7Z-NTn"/>
+                        <outlet property="searchTextField" destination="2t5-3T-P86" id="1GD-3D-Eqs"/>
+                        <outlet property="seekButton" destination="dlx-YT-75c" id="OdZ-du-pS4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cH-nE-mB6" userLabel="First Responder" sceneMemberID="firstResponder"/>

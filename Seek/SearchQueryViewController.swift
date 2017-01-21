@@ -12,16 +12,26 @@ import youtube_ios_player_helper
 class SearchQueryViewController: UIViewController {
     
     @IBOutlet weak var playerView: YTPlayerView!
+    @IBOutlet weak var searchTextField: UITextField!
+    @IBOutlet weak var seekButton: UIButton!
+    
     
     var selectedUrl = ""
 
-    override func viewDidLoad() 
+    override func viewDidLoad() {
         super.viewDidLoad()
+        
+        seekButton.layer.cornerRadius = 10
         
         let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
 
         self.playerView.load(withVideoId: youtubeId)
     }
+    
+    @IBAction func didPressSeekButton(_ sender: Any) {
+        
+    }
+    
 
     /*
     // MARK: - Navigation

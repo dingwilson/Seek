@@ -28,6 +28,8 @@ class SplashViewController: UIViewController {
         
         self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.7)
         
+        seekButton.layer.cornerRadius = 10
+        
         let appGroupId = "group.com.wilsonding.Seek"
         
         let defaults = UserDefaults(suiteName: appGroupId)
