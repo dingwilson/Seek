@@ -56,6 +56,7 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.selectedTime = timestampArray[indexPath.row]
+        _ = navigationController?.popViewController(animated: true)
     }
 
     // MARK: - Navigation

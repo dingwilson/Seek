@@ -110,21 +110,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFT-Wl-9wf" customClass="YTPlayerView">
-                                <rect key="frame" x="0.0" y="64" width="375" height="275"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-3T-P86">
-                                <rect key="frame" x="16" y="347" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-YT-75c">
                                 <rect key="frame" x="146" y="421" width="82" height="41"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="Kc0-lp-tVY"/>
-                                    <constraint firstAttribute="width" constant="82" id="bi8-Cm-CPf"/>
+                                    <constraint firstAttribute="height" constant="41" id="bbP-uY-hOg"/>
+                                    <constraint firstAttribute="width" constant="82" id="ldv-Tq-kjz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Seek">
@@ -134,18 +128,40 @@
                                     <action selector="didPressSeekButton:" destination="TTm-3H-UF1" eventType="touchUpInside" id="8z7-tq-X4g"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmj-xF-aOI">
+                                <rect key="frame" x="115" y="489" width="145" height="41"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <state key="normal" title="Timestamps">
+                                    <color key="titleColor" white="0.84925672740000002" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressSeekButton:" destination="TTm-3H-UF1" eventType="touchUpInside" id="MdQ-bi-K3I"/>
+                                    <action selector="didPressTimestampButton:" destination="TTm-3H-UF1" eventType="touchUpInside" id="IGB-NK-Z1D"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-3T-P86">
+                                <rect key="frame" x="16" y="318" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="centerX" secondItem="dlx-YT-75c" secondAttribute="centerX" id="AO3-dv-EYN"/>
-                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="CXX-YT-YLM"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="DNH-YW-4Yc" secondAttribute="bottom" id="D2S-P1-OJ5"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="FZY-tI-Mgn"/>
-                            <constraint firstItem="dlx-YT-75c" firstAttribute="top" secondItem="2t5-3T-P86" secondAttribute="bottom" constant="44" id="JN0-id-UdH"/>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="8" symbolic="YES" id="drJ-4z-rdW"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="centerX" secondItem="2t5-3T-P86" secondAttribute="centerX" id="kMJ-nR-hPA"/>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leadingMargin" id="sQ4-hN-pUD"/>
-                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="dlx-YT-75c" secondAttribute="bottom" constant="205" id="xp5-OT-Gdv"/>
+                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="Rmj-xF-aOI" secondAttribute="bottom" constant="137" id="6TB-QJ-e5R"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="43" id="9EO-GH-j3O"/>
+                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="top" secondItem="dlx-YT-75c" secondAttribute="bottom" constant="27" id="Ne2-ar-ndv"/>
+                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="WTH-jr-IJo"/>
+                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leadingMargin" constant="99" id="cM4-JC-dIo"/>
+                            <constraint firstItem="dlx-YT-75c" firstAttribute="top" secondItem="2t5-3T-P86" secondAttribute="bottom" constant="73" id="dIE-na-xoY"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="centerY" secondItem="WLM-fS-KCv" secondAttribute="centerY" id="eEf-uO-usv"/>
+                            <constraint firstItem="dlx-YT-75c" firstAttribute="centerX" secondItem="Rmj-xF-aOI" secondAttribute="centerX" id="hKh-6u-HlP"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="centerX" secondItem="2t5-3T-P86" secondAttribute="centerX" id="l7X-BM-Sdn"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leadingMargin" id="mzG-bm-OOM"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="centerX" secondItem="dlx-YT-75c" secondAttribute="centerX" id="pnc-u2-38g"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="z1O-NW-Xdz"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="zcH-Jp-s5c"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GeN-z6-nyE"/>
@@ -153,12 +169,13 @@
                         <outlet property="playerView" destination="VFT-Wl-9wf" id="XTn-7Z-NTn"/>
                         <outlet property="searchTextField" destination="2t5-3T-P86" id="1GD-3D-Eqs"/>
                         <outlet property="seekButton" destination="dlx-YT-75c" id="OdZ-du-pS4"/>
+                        <outlet property="timestampButton" destination="Rmj-xF-aOI" id="4ob-LM-rTc"/>
                         <segue destination="Ip0-Ea-DtB" kind="show" identifier="goToList" id="O0N-S3-S8L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cH-nE-mB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2199" y="136"/>
+            <point key="canvasLocation" x="2197.5999999999999" y="135.38230884557723"/>
         </scene>
         <!--List Table View Controller-->
         <scene sceneID="GLq-SD-hyz">
@@ -207,7 +224,7 @@
         <!--Navigation Controller-->
         <scene sceneID="GXM-Sj-pI0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GG1-Xv-jNO" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="GG1-Xv-jNO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gEW-Bb-Lg3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

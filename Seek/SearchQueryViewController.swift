@@ -15,6 +15,7 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
     @IBOutlet weak var playerView: YTPlayerView!
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var seekButton: UIButton!
+    @IBOutlet weak var timestampButton: UIButton!
     
     var selectedUrl = ""
     public var selectedTime : Float = 0.0
@@ -25,8 +26,14 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
         return true
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        timestampButton.isHidden = true
         
         self.playerView.delegate = self
         
@@ -77,11 +84,16 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
             let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
             sendDataToServerWith(id: youtubeId, query: searchTextField.text!, endpoint: "audiosearch")
             sendDataToServerWith(id: youtubeId, query: searchTextField.text!, endpoint: "videosearch")
-            self.performSegue(withIdentifier: "goToList", sender: self)
+            timestampButton.isHidden = false
         } else {
             createAlert(title:"Error", message: "The Search Query is not valid!")
         }
     }
+    
+    @IBAction func didPressTimestampButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "goToList", sender: self)
+    }
+    
     
     // MARK: - Navigation
 

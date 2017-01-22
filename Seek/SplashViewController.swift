@@ -47,6 +47,7 @@ class SplashViewController: UIViewController {
             if url != "" {
                 urlField.text = url
                 defaults?.setValue("", forKey: "youtubeUrl")
+                self.performSegue(withIdentifier: "goToSearchQuery", sender: self)
             }
         }
     }
