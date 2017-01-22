@@ -27,6 +27,14 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
         navigationController?.delegate = self
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let sortedArray = self.timestampArray.sorted(by: { $0.timestamp() > $1.timestamp() })
+        
+        self.timestampArray = sortedArray
+    }
+    
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
         if let controller = viewController as? SearchQueryViewController {
             controller.selectedTime = selectedTime
@@ -57,14 +65,6 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.selectedTime = timestampArray[indexPath.row].timestamp()
         _ = navigationController?.popViewController(animated: true)
-    }
-
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
 
 }

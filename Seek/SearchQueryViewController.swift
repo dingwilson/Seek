@@ -40,9 +40,13 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
         
         seekButton.layer.cornerRadius = 10
         
+        timestampButton.layer.cornerRadius = 10
+        
         self.navigationController?.navigationBar.barTintColor = UIColor.black
         
         self.playerView.load(withVideoId: selectedUrl)
+        
+        timestampArray.append(Timestamp(timestamp: 0.0, detail: "Return To Beginning"))
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -87,10 +91,6 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
                 }
                 
                 self.timestampArray += jsonArray
-                
-                let sortedArray = self.timestampArray.sorted(by: { $0.timestamp() > $1.timestamp() })
-                
-                self.timestampArray = sortedArray
 
             } else {
                 print("JSON serialization failed. Raw data: \(response.result)")
