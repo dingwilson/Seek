@@ -32,6 +32,8 @@ class SplashViewController: UIViewController, UITextFieldDelegate {
         self.urlField.delegate = self
         
         self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.25)
+        
+        self.backgroundVideo.fadeOut()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -47,6 +49,8 @@ class SplashViewController: UIViewController, UITextFieldDelegate {
                 defaults?.setValue("", forKey: "youtubeUrl")
             }
         }
+        
+        self.backgroundVideo.fadeIn()
     }
     
     private func createAlert(title: String, message: String) {
@@ -99,4 +103,18 @@ class SplashViewController: UIViewController, UITextFieldDelegate {
         targetVC.selectedUrl = self.selectedUrl
     }
 
+}
+
+extension UIView {
+    func fadeIn() {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: UIViewAnimationOptions.curveEaseIn, animations: {
+            self.alpha = 1.0
+        }, completion: nil)
+    }
+    
+    func fadeOut() {
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
+            self.alpha = 0.0
+        }, completion: nil)
+    }
 }
