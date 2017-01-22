@@ -11,7 +11,7 @@ import youtube_ios_player_helper
 import Alamofire
 import SwiftyJSON
 
-class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
+class SearchQueryViewController: UIViewController, YTPlayerViewDelegate, UITextFieldDelegate {
     
     @IBOutlet weak var playerView: YTPlayerView!
     @IBOutlet weak var searchTextField: UITextField!
@@ -36,15 +36,13 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
         
         timestampButton.isHidden = true
         
+        self.searchTextField.delegate = self
+        
         self.playerView.delegate = self
         
-        seekButton.layer.cornerRadius = 10
-        
-        timestampButton.layer.cornerRadius = 10
-        
-        self.navigationController?.navigationBar.barTintColor = UIColor.black
-        
         self.playerView.load(withVideoId: selectedUrl)
+        
+        self.playerView.cueVideo(byId: selectedUrl, startSeconds: selectedTime, suggestedQuality: .default)
         
         timestampArray.append(Timestamp(timestamp: 0.0, detail: "Return To Beginning"))
     }
@@ -52,8 +50,10 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.playerView.cueVideo(byId: selectedUrl, startSeconds: selectedTime, suggestedQuality: .default)
-        self.playerView.playVideo()
+        if selectedTime != 0.0 {
+            self.playerView.cueVideo(byId: selectedUrl, startSeconds: selectedTime, suggestedQuality: .default)
+            self.playerView.playVideo()
+        }
     }
     
     private func createAlert(title: String, message: String) {
@@ -68,12 +68,17 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
         present(alert, animated: true, completion: nil)
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     func playerView(_ playerView: YTPlayerView, didChangeTo state: YTPlayerState) {
         
     }
     
     func sendDataToServerWith(id: String, query: String, endpoint: String) {
-        Alamofire.request("http://c02b794f.ngrok.io/\(endpoint)?v=\(id)&q=\(query)").responseJSON { response in
+        Alamofire.request("https://f1882f9f.ngrok.io/\(endpoint)?v=\(id)&q=\(query)").responseJSON { response in
             print(response.response!) // HTTP URL response
             
             if let json = response.result.value {

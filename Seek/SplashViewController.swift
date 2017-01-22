@@ -10,7 +10,7 @@ import UIKit
 import SwiftVideoBackground
 import Alamofire
 
-class SplashViewController: UIViewController {
+class SplashViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var backgroundVideo: BackgroundVideo!
     @IBOutlet weak var urlField: UITextField!
@@ -28,12 +28,10 @@ class SplashViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-        self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.65)
+        self.urlField.delegate = self
         
-        seekButton.layer.cornerRadius = 10
+        self.backgroundVideo.createBackgroundVideo(name: "Background", type: "mp4", alpha: 0.25)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -63,8 +61,13 @@ class SplashViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     func sendDataToServerWith(id: String) {
-        Alamofire.request("http://c02b794f.ngrok.io/watch?v=\(id)").responseJSON { response in
+        Alamofire.request("https://f1882f9f.ngrok.io/watch?v=\(id)").responseJSON { response in
             print(response.response!) // HTTP URL response
         }
     }

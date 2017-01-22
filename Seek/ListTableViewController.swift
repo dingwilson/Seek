@@ -25,14 +25,16 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
         self.tableView.dataSource = self
         
         navigationController?.delegate = self
+        
+        let sortedArray = self.timestampArray.sorted(by: { $0.timestamp() > $1.timestamp() })
+        
+        self.timestampArray = sortedArray
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let sortedArray = self.timestampArray.sorted(by: { $0.timestamp() > $1.timestamp() })
-        
-        self.timestampArray = sortedArray
+        self.tableView.reloadData()
     }
     
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
@@ -51,6 +53,16 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return timestampArray.count
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        if indexPath.row % 2 == 0 {
+            cell.contentView.backgroundColor = UIColor.red
+        } else {
+            cell.contentView.backgroundColor = UIColor.orange
+        }
+        
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
