@@ -47,7 +47,6 @@ class SplashViewController: UIViewController {
             if url != "" {
                 urlField.text = url
                 defaults?.setValue("", forKey: "youtubeUrl")
-                self.performSegue(withIdentifier: "goToSearchQuery", sender: self)
             }
         }
     }
@@ -73,9 +72,11 @@ class SplashViewController: UIViewController {
     @IBAction func didPressSeekButton(_ sender: Any) {
         if self.urlField.text != "" {
             self.selectedUrl = self.urlField.text!
+            
             self.selectedUrl = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
             self.selectedUrl = selectedUrl.replacingOccurrences(of: "&feature=share", with: "")
             sendDataToServerWith(id: selectedUrl)
+            
             self.performSegue(withIdentifier: "goToSearchQuery", sender: self)
         } else {
             createAlert(title:"Error", message: "The YouTube URL is not valid!")

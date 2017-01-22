@@ -10,7 +10,7 @@ import UIKit
 
 class ListTableViewController: UITableViewController, UINavigationControllerDelegate {
     
-    var timestampArray : [Float] = []
+    var timestampArray : [Timestamp] = []
     
     var selectedTime : Float = 0.0
     
@@ -48,14 +48,14 @@ class ListTableViewController: UITableViewController, UINavigationControllerDele
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        cell.textLabel?.text = "\(timestampArray[indexPath.row])"
-        cell.detailTextLabel?.text = "Yes"
+        cell.textLabel?.text = "\(timestampArray[indexPath.row].timestamp())"
+        cell.detailTextLabel?.text = "\(timestampArray[indexPath.row].detail()!)"
 
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.selectedTime = timestampArray[indexPath.row]
+        self.selectedTime = timestampArray[indexPath.row].timestamp()
         _ = navigationController?.popViewController(animated: true)
     }
 

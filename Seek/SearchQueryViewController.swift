@@ -9,6 +9,7 @@
 import UIKit
 import youtube_ios_player_helper
 import Alamofire
+import SwiftyJSON
 
 class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
     
@@ -20,7 +21,7 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
     var selectedUrl = ""
     public var selectedTime : Float = 0.0
     
-    var timestampArray : [Float] = [0.0, 10.0, 20.0, 30.0, 40.0]
+    var timestampArray : [Timestamp] = []
     
     override var prefersStatusBarHidden : Bool {
         return true
@@ -71,8 +72,26 @@ class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
         Alamofire.request("http://c02b794f.ngrok.io/\(endpoint)?v=\(id)&q=\(query)").responseJSON { response in
             print(response.response!) // HTTP URL response
             
-            if let JSON = response.result.value {
-                print("JSON: \(JSON)")
+            if let json = response.result.value {
+                print("JSON: \(json)")
+                
+                var jsonArray : [Timestamp] = []
+                
+                for (key,subJson):(String, JSON) in JSON(json) {
+                    let floatArray = subJson.rawValue as! [Float]
+                    
+                    for timestampValue in floatArray {
+                        let timestampObject = Timestamp(timestamp: timestampValue, detail: "\(endpoint) for: \(key)")
+                        jsonArray.append(timestampObject)
+                    }
+                }
+                
+                self.timestampArray += jsonArray
+                
+                let sortedArray = self.timestampArray.sorted(by: { $0.timestamp() > $1.timestamp() })
+                
+                self.timestampArray = sortedArray
+
             } else {
                 print("JSON serialization failed. Raw data: \(response.result)")
             }
