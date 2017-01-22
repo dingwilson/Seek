@@ -8,6 +8,7 @@
 
 import UIKit
 import youtube_ios_player_helper
+import Alamofire
 
 class SearchQueryViewController: UIViewController {
     
@@ -16,15 +17,22 @@ class SearchQueryViewController: UIViewController {
     @IBOutlet weak var seekButton: UIButton!
     
     var selectedUrl = ""
-
+    var selectedTime = 0
+    
+    var timestampArray = [0, 0, 2, 3, 4]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         seekButton.layer.cornerRadius = 10
         
-        let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
-
-        self.playerView.load(withVideoId: youtubeId)
+        self.navigationController?.navigationBar.barTintColor = UIColor.black
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.playerView.cueVideo(byId: selectedUrl, startSeconds: Float(selectedTime), suggestedQuality: .default)
     }
     
     private func createAlert(title: String, message: String) {
@@ -39,28 +47,38 @@ class SearchQueryViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    func sendDataToServerWith(id: String, query: String) {
-        
+    func sendDataToServerWith(id: String, query: String, endpoint: String) {
+        Alamofire.request("http://c02b794f.ngrok.io/\(endpoint)?v=\(id)&q=\(query)").responseJSON { response in
+            print(response.response!) // HTTP URL response
+            print(response.data)     // server data
+            print(response.result)   // result of response serialization
+            
+            if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+            }
+        }
     }
     
     @IBAction func didPressSeekButton(_ sender: Any) {
         if self.searchTextField.text != "" {
-            let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com", with: "")
-            sendDataToServerWith(id: youtubeId, query: searchTextField.text!)
+            let youtubeId = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
+            sendDataToServerWith(id: youtubeId, query: searchTextField.text!, endpoint: "audiosearch")
+            sendDataToServerWith(id: youtubeId, query: searchTextField.text!, endpoint: "videosearch")
+            self.performSegue(withIdentifier: "goToList", sender: self)
         } else {
             createAlert(title:"Error", message: "The Search Query is not valid!")
         }
     }
     
-
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        let vc = segue.destination as! ListTableViewController
+        vc.timestampArray = self.timestampArray
     }
-    */
 
 }

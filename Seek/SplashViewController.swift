@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftVideoBackground
+import Alamofire
 
 class SplashViewController: UIViewController {
 
@@ -57,10 +58,19 @@ class SplashViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
+    
+    func sendDataToServerWith(id: String) {
+        Alamofire.request("http://c02b794f.ngrok.io/watch?v=\(id)").responseJSON { response in
+            print(response.response!) // HTTP URL response
+        }
+    }
 
     @IBAction func didPressSeekButton(_ sender: Any) {
         if self.urlField.text != "" {
             self.selectedUrl = self.urlField.text!
+            self.selectedUrl = selectedUrl.replacingOccurrences(of: "https://www.youtube.com/watch?v=", with: "")
+            self.selectedUrl = selectedUrl.replacingOccurrences(of: "&feature=share", with: "")
+            sendDataToServerWith(id: selectedUrl)
             self.performSegue(withIdentifier: "goToSearchQuery", sender: self)
         } else {
             createAlert(title:"Error", message: "The YouTube URL is not valid!")
@@ -74,8 +84,9 @@ class SplashViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         
-        let vc = segue.destination as! SearchQueryViewController
-        vc.selectedUrl = self.selectedUrl
+        let targetVC = segue.destination as! SearchQueryViewController
+        
+        targetVC.selectedUrl = self.selectedUrl
     }
 
 }
