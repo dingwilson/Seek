@@ -10,16 +10,16 @@ import UIKit
 import youtube_ios_player_helper
 import Alamofire
 
-class SearchQueryViewController: UIViewController {
+class SearchQueryViewController: UIViewController, YTPlayerViewDelegate {
     
     @IBOutlet weak var playerView: YTPlayerView!
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var seekButton: UIButton!
     
     var selectedUrl = ""
-    var selectedTime = 0
+    public var selectedTime : Float = 0.0
     
-    var timestampArray = [0, 0, 2, 3, 4]
+    var timestampArray : [Float] = [0.0, 10.0, 20.0, 30.0, 40.0]
     
     override var prefersStatusBarHidden : Bool {
         return true
@@ -27,6 +27,8 @@ class SearchQueryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.playerView.delegate = self
         
         seekButton.layer.cornerRadius = 10
         
@@ -38,7 +40,8 @@ class SearchQueryViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.playerView.cueVideo(byId: selectedUrl, startSeconds: Float(selectedTime), suggestedQuality: .default)
+        self.playerView.cueVideo(byId: selectedUrl, startSeconds: selectedTime, suggestedQuality: .default)
+        self.playerView.playVideo()
     }
     
     private func createAlert(title: String, message: String) {
@@ -51,6 +54,10 @@ class SearchQueryViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         
         present(alert, animated: true, completion: nil)
+    }
+    
+    func playerView(_ playerView: YTPlayerView, didChangeTo state: YTPlayerState) {
+        
     }
     
     func sendDataToServerWith(id: String, query: String, endpoint: String) {

@@ -87,8 +87,9 @@ class SplashViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        
-        let targetVC = segue.destination as! SearchQueryViewController
+        let destinationNavigationController = segue.destination as! UINavigationController
+        let targetVC = destinationNavigationController.topViewController as! SearchQueryViewController
+        //let targetVC = segue.destination as! SearchQueryViewController
         
         targetVC.selectedUrl = self.selectedUrl
     }

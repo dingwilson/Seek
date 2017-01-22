@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ListTableViewController: UITableViewController {
+class ListTableViewController: UITableViewController, UINavigationControllerDelegate {
     
-    var timestampArray : [Int] = []
+    var timestampArray : [Float] = []
     
-    var selectedTime = 0
+    var selectedTime : Float = 0.0
     
     override var prefersStatusBarHidden : Bool {
         return true
@@ -23,6 +23,14 @@ class ListTableViewController: UITableViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        
+        navigationController?.delegate = self
+    }
+    
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        if let controller = viewController as? SearchQueryViewController {
+            controller.selectedTime = selectedTime
+        }
     }
 
     // MARK: - Table view data source
@@ -47,13 +55,7 @@ class ListTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell = tableView.cellForRow(at: indexPath)
-        
-        if cell != nil {
-            if let text = cell?.textLabel?.text {
-                
-            }
-        }
+        self.selectedTime = timestampArray[indexPath.row]
     }
 
     // MARK: - Navigation
