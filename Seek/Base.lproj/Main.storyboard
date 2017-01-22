@@ -58,7 +58,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="YouTube URL" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-gf-ebM">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter YouTube URL" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-gf-ebM">
                                 <rect key="frame" x="0.0" y="360" width="375" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="78" id="Geo-T8-H4C"/>
@@ -119,7 +119,7 @@
                                 <rect key="frame" x="0.0" y="591" width="375" height="76"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="Gr3-Nc-163"/>
+                                    <constraint firstAttribute="height" constant="76" id="gGg-es-elv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="33"/>
                                 <state key="normal" title="Seek">
@@ -133,7 +133,7 @@
                                 <rect key="frame" x="0.0" y="519" width="375" height="76"/>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="W6B-cD-Jvm"/>
+                                    <constraint firstAttribute="height" constant="76" id="g69-Ts-KdU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="33"/>
                                 <state key="normal" title="Timestamps">
@@ -147,33 +147,79 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Query" textAlignment="center" minimumFontSize="20" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-3T-P86">
                                 <rect key="frame" x="0.0" y="286" width="375" height="58"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="qad-v2-wlC"/>
+                                    <constraint firstAttribute="height" constant="58" id="CEN-LZ-ay4"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes" returnKeyType="done"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Audio Analysis..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyv-kX-rYT">
+                                <rect key="frame" x="0.0" y="352" width="375" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="ZR8-Fl-WM3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Video Analysis..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmt-KU-I2r">
+                                <rect key="frame" x="0.0" y="389" width="375" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="ui4-Gu-dBo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculating Timestamps..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bog-EP-AOn">
+                                <rect key="frame" x="0.0" y="426" width="375" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="rHR-4Z-7oT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pw3-br-drR">
+                                <rect key="frame" x="0.0" y="348" width="375" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="7" id="0u6-RE-jN1"/>
-                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="Rmj-xF-aOI" secondAttribute="bottom" constant="72" id="CyL-xz-bn9"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="MqQ-lm-hSM"/>
-                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="trailing" secondItem="dlx-YT-75c" secondAttribute="trailing" id="OQ6-4u-xxV"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="WoA-oY-pqn"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="2t5-3T-P86" secondAttribute="leading" id="XUh-jO-H2f"/>
-                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="trailing" secondItem="2t5-3T-P86" secondAttribute="trailing" id="XYI-Qx-fBa"/>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="trailing" secondItem="Rmj-xF-aOI" secondAttribute="trailing" id="dmb-Zw-it2"/>
-                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="leading" secondItem="dlx-YT-75c" secondAttribute="leading" id="e46-bq-kud"/>
-                            <constraint firstItem="dlx-YT-75c" firstAttribute="bottom" secondItem="WZA-o7-oGz" secondAttribute="top" id="epI-gG-ORw"/>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" constant="286" id="jIY-9v-SiV"/>
-                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="rhg-tt-hJO"/>
-                            <constraint firstItem="2t5-3T-P86" firstAttribute="leading" secondItem="Rmj-xF-aOI" secondAttribute="leading" id="yim-UF-jqK"/>
+                            <constraint firstItem="Xyv-kX-rYT" firstAttribute="top" secondItem="pw3-br-drR" secondAttribute="bottom" constant="2" id="0AT-L9-0HK"/>
+                            <constraint firstItem="bog-EP-AOn" firstAttribute="leading" secondItem="Rmj-xF-aOI" secondAttribute="leading" id="0q0-Kk-W4m"/>
+                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="leading" secondItem="dlx-YT-75c" secondAttribute="leading" id="1tS-re-3N6"/>
+                            <constraint firstItem="wmt-KU-I2r" firstAttribute="leading" secondItem="bog-EP-AOn" secondAttribute="leading" id="4ma-no-vEa"/>
+                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="top" secondItem="bog-EP-AOn" secondAttribute="bottom" constant="64" id="50k-lp-OJg"/>
+                            <constraint firstItem="bog-EP-AOn" firstAttribute="top" secondItem="wmt-KU-I2r" secondAttribute="bottom" constant="8" symbolic="YES" id="6zh-Q2-2vr"/>
+                            <constraint firstItem="Xyv-kX-rYT" firstAttribute="leading" secondItem="wmt-KU-I2r" secondAttribute="leading" id="AOg-n1-GMb"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="leading" secondItem="pw3-br-drR" secondAttribute="leading" id="Ch9-5r-uhE"/>
+                            <constraint firstAttribute="trailing" secondItem="VFT-Wl-9wf" secondAttribute="trailing" id="DKJ-0m-eoG"/>
+                            <constraint firstItem="Xyv-kX-rYT" firstAttribute="trailing" secondItem="wmt-KU-I2r" secondAttribute="trailing" id="E4h-gU-Oxr"/>
+                            <constraint firstItem="bog-EP-AOn" firstAttribute="trailing" secondItem="Rmj-xF-aOI" secondAttribute="trailing" id="JD5-UO-nlb"/>
+                            <constraint firstItem="WZA-o7-oGz" firstAttribute="top" secondItem="Rmj-xF-aOI" secondAttribute="bottom" constant="72" id="KL5-sp-ecx"/>
+                            <constraint firstItem="Xyv-kX-rYT" firstAttribute="top" secondItem="2t5-3T-P86" secondAttribute="bottom" constant="8" symbolic="YES" id="NcH-9t-ViX"/>
+                            <constraint firstItem="wmt-KU-I2r" firstAttribute="trailing" secondItem="bog-EP-AOn" secondAttribute="trailing" id="TTL-c9-uQb"/>
+                            <constraint firstItem="pw3-br-drR" firstAttribute="trailing" secondItem="Xyv-kX-rYT" secondAttribute="trailing" id="VTq-PM-95f"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="WLM-fS-KCv" secondAttribute="leading" id="Xer-hH-W4f"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="trailing" secondItem="2t5-3T-P86" secondAttribute="trailing" id="b9f-CB-FXp"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="top" secondItem="WLM-fS-KCv" secondAttribute="top" id="dBz-Xg-d04"/>
+                            <constraint firstItem="VFT-Wl-9wf" firstAttribute="leading" secondItem="2t5-3T-P86" secondAttribute="leading" id="k3b-2a-69o"/>
+                            <constraint firstItem="dlx-YT-75c" firstAttribute="bottom" secondItem="WZA-o7-oGz" secondAttribute="top" id="nzS-xN-Dom"/>
+                            <constraint firstItem="wmt-KU-I2r" firstAttribute="top" secondItem="Xyv-kX-rYT" secondAttribute="bottom" constant="8" symbolic="YES" id="osk-XT-fFe"/>
+                            <constraint firstItem="pw3-br-drR" firstAttribute="leading" secondItem="Xyv-kX-rYT" secondAttribute="leading" id="pWS-9s-m3z"/>
+                            <constraint firstItem="Rmj-xF-aOI" firstAttribute="trailing" secondItem="dlx-YT-75c" secondAttribute="trailing" id="tDU-rs-pFV"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="trailing" secondItem="pw3-br-drR" secondAttribute="trailing" id="xf2-7k-a1x"/>
+                            <constraint firstItem="2t5-3T-P86" firstAttribute="top" secondItem="VFT-Wl-9wf" secondAttribute="bottom" constant="7" id="xqa-Ay-XC9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GeN-z6-nyE"/>
                     <connections>
+                        <outlet property="loadAudio" destination="Xyv-kX-rYT" id="tGm-r9-POY"/>
+                        <outlet property="loadFinal" destination="bog-EP-AOn" id="9fy-bf-Xdo"/>
+                        <outlet property="loadVideo" destination="wmt-KU-I2r" id="q5c-NA-Mjg"/>
                         <outlet property="playerView" destination="VFT-Wl-9wf" id="XTn-7Z-NTn"/>
+                        <outlet property="progressView" destination="pw3-br-drR" id="cnn-30-TS6"/>
                         <outlet property="searchTextField" destination="2t5-3T-P86" id="1GD-3D-Eqs"/>
                         <outlet property="seekButton" destination="dlx-YT-75c" id="OdZ-du-pS4"/>
                         <outlet property="timestampButton" destination="Rmj-xF-aOI" id="4ob-LM-rTc"/>
