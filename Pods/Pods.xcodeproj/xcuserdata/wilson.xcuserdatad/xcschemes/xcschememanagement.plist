@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>youtube-ios-player-helper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>20A8AD6BF2AF07E0CCBBC9282728B29A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>239B5A0F6F28365BEC46D03C32AC73B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>82E86BE37386AC82D49A069FAFB9AA40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A29BC390081B2EB06B236366180F25F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>F00B4098646C7B1BE9CB31DF242F7FFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2E3F2E64CEA00672A71956F1FACCD93</key>
 		<dict>
 			<key>primary</key>
 			<true/>

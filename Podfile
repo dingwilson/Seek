@@ -9,5 +9,5 @@ target 'Seek' do
   pod "youtube-ios-player-helper", "~> 0.1.4"
   pod 'Alamofire', '~> 4.3'
   pod 'SwiftVideoBackground'
-
+  pod 'SwiftyJSON'
 end

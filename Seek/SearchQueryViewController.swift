@@ -21,12 +21,18 @@ class SearchQueryViewController: UIViewController {
     
     var timestampArray = [0, 0, 2, 3, 4]
     
+    override var prefersStatusBarHidden : Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         seekButton.layer.cornerRadius = 10
         
         self.navigationController?.navigationBar.barTintColor = UIColor.black
+        
+        self.playerView.load(withVideoId: selectedUrl)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -50,11 +56,11 @@ class SearchQueryViewController: UIViewController {
     func sendDataToServerWith(id: String, query: String, endpoint: String) {
         Alamofire.request("http://c02b794f.ngrok.io/\(endpoint)?v=\(id)&q=\(query)").responseJSON { response in
             print(response.response!) // HTTP URL response
-            print(response.data)     // server data
-            print(response.result)   // result of response serialization
             
             if let JSON = response.result.value {
                 print("JSON: \(JSON)")
+            } else {
+                print("JSON serialization failed. Raw data: \(response.result)")
             }
         }
     }

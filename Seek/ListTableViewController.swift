@@ -11,10 +11,18 @@ import UIKit
 class ListTableViewController: UITableViewController {
     
     var timestampArray : [Int] = []
+    
+    var selectedTime = 0
+    
+    override var prefersStatusBarHidden : Bool {
+        return true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
     }
 
     // MARK: - Table view data source
@@ -33,6 +41,7 @@ class ListTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
         cell.textLabel?.text = "\(timestampArray[indexPath.row])"
+        cell.detailTextLabel?.text = "Yes"
 
         return cell
     }
@@ -41,7 +50,9 @@ class ListTableViewController: UITableViewController {
         let cell = tableView.cellForRow(at: indexPath)
         
         if cell != nil {
-            //cell?.textLabel.text
+            if let text = cell?.textLabel?.text {
+                
+            }
         }
     }
 
