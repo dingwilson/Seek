@@ -1,0 +1,2894 @@
+[
+    {
+        "start": 9.93,
+        "end": 10.1,
+        "confidence": 1.0,
+        "text": "hi"
+    },
+    {
+        "start": 10.1,
+        "end": 10.52,
+        "confidence": 0.994,
+        "text": "everybody"
+    },
+    {
+        "start": 11.62,
+        "end": 11.96,
+        "confidence": 1.0,
+        "text": "today"
+    },
+    {
+        "start": 11.96,
+        "end": 12.1,
+        "confidence": 0.906,
+        "text": "there"
+    },
+    {
+        "start": 12.1,
+        "end": 12.16,
+        "confidence": 0.614,
+        "text": "are"
+    },
+    {
+        "start": 12.16,
+        "end": 12.4,
+        "confidence": 1.0,
+        "text": "two"
+    },
+    {
+        "start": 12.4,
+        "end": 12.74,
+        "confidence": 1.0,
+        "text": "point"
+    },
+    {
+        "start": 12.74,
+        "end": 12.91,
+        "confidence": 1.0,
+        "text": "two"
+    },
+    {
+        "start": 12.91,
+        "end": 13.34,
+        "confidence": 1.0,
+        "text": "million"
+    },
+    {
+        "start": 13.34,
+        "end": 13.68,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 13.68,
+        "end": 14.01,
+        "confidence": 1.0,
+        "text": "behind"
+    },
+    {
+        "start": 14.01,
+        "end": 14.29,
+        "confidence": 1.0,
+        "text": "bars"
+    },
+    {
+        "start": 14.29,
+        "end": 14.36,
+        "confidence": 0.94,
+        "text": "in"
+    },
+    {
+        "start": 14.36,
+        "end": 14.78,
+        "confidence": 0.769,
+        "text": "America"
+    },
+    {
+        "start": 15.3,
+        "end": 15.48,
+        "confidence": 0.35,
+        "text": "and"
+    },
+    {
+        "start": 15.48,
+        "end": 15.88,
+        "confidence": 1.0,
+        "text": "millions"
+    },
+    {
+        "start": 15.88,
+        "end": 16.13,
+        "confidence": 1.0,
+        "text": "more"
+    },
+    {
+        "start": 16.13,
+        "end": 16.22,
+        "confidence": 1.0,
+        "text": "on"
+    },
+    {
+        "start": 16.22,
+        "end": 16.76,
+        "confidence": 1.0,
+        "text": "parole"
+    },
+    {
+        "start": 16.79,
+        "end": 16.96,
+        "confidence": 1.0,
+        "text": "or"
+    },
+    {
+        "start": 16.96,
+        "end": 17.5,
+        "confidence": 0.996,
+        "text": "probation"
+    },
+    {
+        "start": 18.51,
+        "end": 18.85,
+        "confidence": 1.0,
+        "text": "every"
+    },
+    {
+        "start": 18.85,
+        "end": 19.09,
+        "confidence": 1.0,
+        "text": "year"
+    },
+    {
+        "start": 19.09,
+        "end": 19.29,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 19.29,
+        "end": 19.72,
+        "confidence": 0.766,
+        "text": "spend"
+    },
+    {
+        "start": 19.78,
+        "end": 20.15,
+        "confidence": 0.911,
+        "text": "eighty"
+    },
+    {
+        "start": 20.15,
+        "end": 20.74,
+        "confidence": 0.996,
+        "text": "billion"
+    },
+    {
+        "start": 21.1,
+        "end": 21.16,
+        "confidence": 0.288,
+        "text": "in"
+    },
+    {
+        "start": 21.16,
+        "end": 21.67,
+        "confidence": 0.986,
+        "text": "taxpayer"
+    },
+    {
+        "start": 21.67,
+        "end": 22.21,
+        "confidence": 0.986,
+        "text": "dollars"
+    },
+    {
+        "start": 22.63,
+        "end": 22.88,
+        "confidence": 0.755,
+        "text": "keep"
+    },
+    {
+        "start": 22.88,
+        "end": 23.2,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 23.2,
+        "end": 23.84,
+        "confidence": 1.0,
+        "text": "incarcerated"
+    },
+    {
+        "start": 24.9,
+        "end": 25.14,
+        "confidence": 0.99,
+        "text": "many"
+    },
+    {
+        "start": 25.14,
+        "end": 25.22,
+        "confidence": 0.567,
+        "text": "are"
+    },
+    {
+        "start": 25.22,
+        "end": 25.83,
+        "confidence": 0.517,
+        "text": "nonviolent"
+    },
+    {
+        "start": 25.83,
+        "end": 26.15,
+        "confidence": 0.516,
+        "text": "offender"
+    },
+    {
+        "start": 26.15,
+        "end": 26.56,
+        "confidence": 0.927,
+        "text": "serving"
+    },
+    {
+        "start": 26.59,
+        "end": 27.41,
+        "confidence": 0.661,
+        "text": "unnecessarily"
+    },
+    {
+        "start": 27.41,
+        "end": 27.69,
+        "confidence": 1.0,
+        "text": "long"
+    },
+    {
+        "start": 27.69,
+        "end": 28.24,
+        "confidence": 0.385,
+        "text": "senses"
+    },
+    {
+        "start": 29.32,
+        "end": 29.45,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 29.45,
+        "end": 29.71,
+        "confidence": 1.0,
+        "text": "believe"
+    },
+    {
+        "start": 29.71,
+        "end": 29.85,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 29.85,
+        "end": 29.98,
+        "confidence": 1.0,
+        "text": "can"
+    },
+    {
+        "start": 29.98,
+        "end": 30.68,
+        "confidence": 1.0,
+        "text": "disrupt"
+    },
+    {
+        "start": 30.84,
+        "end": 30.95,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 30.95,
+        "end": 31.52,
+        "confidence": 0.835,
+        "text": "pipeline"
+    },
+    {
+        "start": 31.52,
+        "end": 31.77,
+        "confidence": 1.0,
+        "text": "from"
+    },
+    {
+        "start": 31.77,
+        "end": 32.28,
+        "confidence": 0.686,
+        "text": "underfunded"
+    },
+    {
+        "start": 32.28,
+        "end": 32.86,
+        "confidence": 0.996,
+        "text": "schools"
+    },
+    {
+        "start": 33.03,
+        "end": 33.66,
+        "confidence": 0.964,
+        "text": "overcrowded"
+    },
+    {
+        "start": 33.66,
+        "end": 34.12,
+        "confidence": 0.996,
+        "text": "jails"
+    },
+    {
+        "start": 34.88,
+        "end": 35.02,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 35.02,
+        "end": 35.3,
+        "confidence": 1.0,
+        "text": "believe"
+    },
+    {
+        "start": 35.3,
+        "end": 35.43,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 35.43,
+        "end": 35.56,
+        "confidence": 1.0,
+        "text": "can"
+    },
+    {
+        "start": 35.56,
+        "end": 35.92,
+        "confidence": 1.0,
+        "text": "address"
+    },
+    {
+        "start": 35.92,
+        "end": 36.03,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 36.03,
+        "end": 36.68,
+        "confidence": 1.0,
+        "text": "disparities"
+    },
+    {
+        "start": 36.68,
+        "end": 36.77,
+        "confidence": 1.0,
+        "text": "in"
+    },
+    {
+        "start": 36.77,
+        "end": 36.85,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 36.85,
+        "end": 37.39,
+        "confidence": 1.0,
+        "text": "application"
+    },
+    {
+        "start": 37.39,
+        "end": 37.47,
+        "confidence": 1.0,
+        "text": "of"
+    },
+    {
+        "start": 37.47,
+        "end": 37.78,
+        "confidence": 1.0,
+        "text": "criminal"
+    },
+    {
+        "start": 37.78,
+        "end": 38.31,
+        "confidence": 0.996,
+        "text": "justice"
+    },
+    {
+        "start": 38.4,
+        "end": 38.59,
+        "confidence": 0.963,
+        "text": "from"
+    },
+    {
+        "start": 38.59,
+        "end": 38.93,
+        "confidence": 0.653,
+        "text": "arrest"
+    },
+    {
+        "start": 38.93,
+        "end": 39.29,
+        "confidence": 1.0,
+        "text": "rates"
+    },
+    {
+        "start": 39.29,
+        "end": 39.43,
+        "confidence": 0.65,
+        "text": "to"
+    },
+    {
+        "start": 39.43,
+        "end": 39.93,
+        "confidence": 0.474,
+        "text": "sentencing"
+    },
+    {
+        "start": 39.93,
+        "end": 40.05,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 40.05,
+        "end": 40.78,
+        "confidence": 0.996,
+        "text": "incarceration"
+    },
+    {
+        "start": 41.47,
+        "end": 41.68,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 41.68,
+        "end": 41.77,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 41.77,
+        "end": 42.12,
+        "confidence": 1.0,
+        "text": "believe"
+    },
+    {
+        "start": 42.12,
+        "end": 42.25,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 42.25,
+        "end": 42.39,
+        "confidence": 1.0,
+        "text": "can"
+    },
+    {
+        "start": 42.39,
+        "end": 42.78,
+        "confidence": 0.966,
+        "text": "help"
+    },
+    {
+        "start": 42.82,
+        "end": 43.32,
+        "confidence": 0.854,
+        "text": "those"
+    },
+    {
+        "start": 43.48,
+        "end": 43.58,
+        "confidence": 0.393,
+        "text": "who"
+    },
+    {
+        "start": 43.58,
+        "end": 43.67,
+        "confidence": 0.367,
+        "text": "have"
+    },
+    {
+        "start": 43.67,
+        "end": 43.99,
+        "confidence": 0.506,
+        "text": "served"
+    },
+    {
+        "start": 43.99,
+        "end": 44.09,
+        "confidence": 1.0,
+        "text": "their"
+    },
+    {
+        "start": 44.09,
+        "end": 44.59,
+        "confidence": 0.996,
+        "text": "time"
+    },
+    {
+        "start": 44.7,
+        "end": 44.89,
+        "confidence": 0.885,
+        "text": "and"
+    },
+    {
+        "start": 44.89,
+        "end": 45.12,
+        "confidence": 0.854,
+        "text": "earned"
+    },
+    {
+        "start": 45.12,
+        "end": 45.16,
+        "confidence": 0.988,
+        "text": "a"
+    },
+    {
+        "start": 45.16,
+        "end": 45.54,
+        "confidence": 1.0,
+        "text": "second"
+    },
+    {
+        "start": 45.54,
+        "end": 46.04,
+        "confidence": 0.996,
+        "text": "chance"
+    },
+    {
+        "start": 46.55,
+        "end": 46.81,
+        "confidence": 1.0,
+        "text": "get"
+    },
+    {
+        "start": 46.81,
+        "end": 46.9,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 46.9,
+        "end": 47.35,
+        "confidence": 1.0,
+        "text": "support"
+    },
+    {
+        "start": 47.35,
+        "end": 47.48,
+        "confidence": 1.0,
+        "text": "they"
+    },
+    {
+        "start": 47.48,
+        "end": 47.68,
+        "confidence": 1.0,
+        "text": "need"
+    },
+    {
+        "start": 47.68,
+        "end": 47.76,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 47.76,
+        "end": 48.11,
+        "confidence": 1.0,
+        "text": "become"
+    },
+    {
+        "start": 48.11,
+        "end": 48.7,
+        "confidence": 1.0,
+        "text": "productive"
+    },
+    {
+        "start": 48.7,
+        "end": 49.07,
+        "confidence": 1.0,
+        "text": "members"
+    },
+    {
+        "start": 49.07,
+        "end": 49.18,
+        "confidence": 1.0,
+        "text": "of"
+    },
+    {
+        "start": 49.18,
+        "end": 49.67,
+        "confidence": 0.996,
+        "text": "society"
+    },
+    {
+        "start": 50.94,
+        "end": 51.09,
+        "confidence": 1.0,
+        "text": "that's"
+    },
+    {
+        "start": 51.09,
+        "end": 51.26,
+        "confidence": 0.97,
+        "text": "why"
+    },
+    {
+        "start": 51.26,
+        "end": 51.4,
+        "confidence": 1.0,
+        "text": "over"
+    },
+    {
+        "start": 51.4,
+        "end": 51.47,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 51.47,
+        "end": 51.77,
+        "confidence": 1.0,
+        "text": "course"
+    },
+    {
+        "start": 51.77,
+        "end": 51.86,
+        "confidence": 1.0,
+        "text": "of"
+    },
+    {
+        "start": 51.86,
+        "end": 52.04,
+        "confidence": 1.0,
+        "text": "this"
+    },
+    {
+        "start": 52.04,
+        "end": 52.31,
+        "confidence": 1.0,
+        "text": "year"
+    },
+    {
+        "start": 52.31,
+        "end": 52.43,
+        "confidence": 0.651,
+        "text": "I've"
+    },
+    {
+        "start": 52.43,
+        "end": 52.56,
+        "confidence": 1.0,
+        "text": "been"
+    },
+    {
+        "start": 52.56,
+        "end": 52.98,
+        "confidence": 1.0,
+        "text": "talking"
+    },
+    {
+        "start": 52.98,
+        "end": 53.05,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 53.05,
+        "end": 53.41,
+        "confidence": 1.0,
+        "text": "folks"
+    },
+    {
+        "start": 53.41,
+        "end": 53.68,
+        "confidence": 1.0,
+        "text": "around"
+    },
+    {
+        "start": 53.68,
+        "end": 53.74,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 53.74,
+        "end": 54.12,
+        "confidence": 1.0,
+        "text": "country"
+    },
+    {
+        "start": 54.12,
+        "end": 54.38,
+        "confidence": 1.0,
+        "text": "about"
+    },
+    {
+        "start": 54.38,
+        "end": 54.86,
+        "confidence": 1.0,
+        "text": "reforming"
+    },
+    {
+        "start": 54.86,
+        "end": 54.95,
+        "confidence": 1.0,
+        "text": "our"
+    },
+    {
+        "start": 54.95,
+        "end": 55.3,
+        "confidence": 1.0,
+        "text": "criminal"
+    },
+    {
+        "start": 55.3,
+        "end": 55.66,
+        "confidence": 1.0,
+        "text": "justice"
+    },
+    {
+        "start": 55.66,
+        "end": 56.0,
+        "confidence": 0.998,
+        "text": "system"
+    },
+    {
+        "start": 56.45,
+        "end": 56.54,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 56.54,
+        "end": 56.73,
+        "confidence": 1.0,
+        "text": "make"
+    },
+    {
+        "start": 56.73,
+        "end": 56.83,
+        "confidence": 0.778,
+        "text": "it"
+    },
+    {
+        "start": 56.92,
+        "end": 57.5,
+        "confidence": 0.995,
+        "text": "smarter"
+    },
+    {
+        "start": 57.69,
+        "end": 58.17,
+        "confidence": 0.976,
+        "text": "fairer"
+    },
+    {
+        "start": 58.17,
+        "end": 58.42,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 58.42,
+        "end": 58.62,
+        "confidence": 1.0,
+        "text": "more"
+    },
+    {
+        "start": 58.62,
+        "end": 59.14,
+        "confidence": 0.996,
+        "text": "effective"
+    },
+    {
+        "start": 60.24,
+        "end": 60.3,
+        "confidence": 0.849,
+        "text": "in"
+    },
+    {
+        "start": 60.3,
+        "end": 60.81,
+        "confidence": 0.407,
+        "text": "February"
+    },
+    {
+        "start": 60.81,
+        "end": 60.9,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 60.9,
+        "end": 61.25,
+        "confidence": 0.831,
+        "text": "sat"
+    },
+    {
+        "start": 61.25,
+        "end": 61.51,
+        "confidence": 1.0,
+        "text": "down"
+    },
+    {
+        "start": 61.51,
+        "end": 61.59,
+        "confidence": 0.94,
+        "text": "in"
+    },
+    {
+        "start": 61.59,
+        "end": 61.68,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 61.68,
+        "end": 61.91,
+        "confidence": 1.0,
+        "text": "oval"
+    },
+    {
+        "start": 61.91,
+        "end": 62.25,
+        "confidence": 1.0,
+        "text": "office"
+    },
+    {
+        "start": 62.25,
+        "end": 62.43,
+        "confidence": 1.0,
+        "text": "with"
+    },
+    {
+        "start": 62.43,
+        "end": 62.76,
+        "confidence": 1.0,
+        "text": "police"
+    },
+    {
+        "start": 62.76,
+        "end": 63.13,
+        "confidence": 1.0,
+        "text": "officers"
+    },
+    {
+        "start": 63.13,
+        "end": 63.32,
+        "confidence": 1.0,
+        "text": "from"
+    },
+    {
+        "start": 63.32,
+        "end": 63.64,
+        "confidence": 1.0,
+        "text": "across"
+    },
+    {
+        "start": 63.64,
+        "end": 63.73,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 63.73,
+        "end": 64.12,
+        "confidence": 0.994,
+        "text": "country"
+    },
+    {
+        "start": 65.0,
+        "end": 65.12,
+        "confidence": 1.0,
+        "text": "in"
+    },
+    {
+        "start": 65.12,
+        "end": 65.2,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 65.2,
+        "end": 65.74,
+        "confidence": 0.991,
+        "text": "spring"
+    },
+    {
+        "start": 66.23,
+        "end": 66.32,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 66.32,
+        "end": 66.51,
+        "confidence": 1.0,
+        "text": "met"
+    },
+    {
+        "start": 66.51,
+        "end": 66.65,
+        "confidence": 1.0,
+        "text": "with"
+    },
+    {
+        "start": 66.65,
+        "end": 66.93,
+        "confidence": 1.0,
+        "text": "police"
+    },
+    {
+        "start": 66.93,
+        "end": 67.34,
+        "confidence": 1.0,
+        "text": "officers"
+    },
+    {
+        "start": 67.34,
+        "end": 67.45,
+        "confidence": 0.491,
+        "text": "and"
+    },
+    {
+        "start": 67.45,
+        "end": 67.63,
+        "confidence": 0.982,
+        "text": "young"
+    },
+    {
+        "start": 67.63,
+        "end": 67.92,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 67.92,
+        "end": 68.0,
+        "confidence": 0.366,
+        "text": "in"
+    },
+    {
+        "start": 68.0,
+        "end": 68.41,
+        "confidence": 0.969,
+        "text": "Camden"
+    },
+    {
+        "start": 68.41,
+        "end": 68.53,
+        "confidence": 1.0,
+        "text": "New"
+    },
+    {
+        "start": 68.53,
+        "end": 68.94,
+        "confidence": 0.994,
+        "text": "Jersey"
+    },
+    {
+        "start": 69.0,
+        "end": 69.17,
+        "confidence": 0.2,
+        "text": "where"
+    },
+    {
+        "start": 69.17,
+        "end": 69.29,
+        "confidence": 0.192,
+        "text": "they're"
+    },
+    {
+        "start": 69.29,
+        "end": 69.71,
+        "confidence": 0.984,
+        "text": "using"
+    },
+    {
+        "start": 69.89,
+        "end": 70.28,
+        "confidence": 1.0,
+        "text": "community"
+    },
+    {
+        "start": 70.28,
+        "end": 70.87,
+        "confidence": 1.0,
+        "text": "policing"
+    },
+    {
+        "start": 70.9,
+        "end": 71.17,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 71.17,
+        "end": 71.56,
+        "confidence": 1.0,
+        "text": "data"
+    },
+    {
+        "start": 71.76,
+        "end": 71.88,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 71.88,
+        "end": 72.2,
+        "confidence": 1.0,
+        "text": "drive"
+    },
+    {
+        "start": 72.2,
+        "end": 72.41,
+        "confidence": 1.0,
+        "text": "down"
+    },
+    {
+        "start": 72.41,
+        "end": 72.76,
+        "confidence": 0.758,
+        "text": "crime"
+    },
+    {
+        "start": 73.83,
+        "end": 74.02,
+        "confidence": 1.0,
+        "text": "over"
+    },
+    {
+        "start": 74.02,
+        "end": 74.1,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 74.1,
+        "end": 74.46,
+        "confidence": 1.0,
+        "text": "summer"
+    },
+    {
+        "start": 74.46,
+        "end": 74.55,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 74.55,
+        "end": 74.91,
+        "confidence": 0.994,
+        "text": "visited"
+    },
+    {
+        "start": 74.91,
+        "end": 74.95,
+        "confidence": 0.797,
+        "text": "a"
+    },
+    {
+        "start": 74.95,
+        "end": 75.5,
+        "confidence": 0.166,
+        "text": "prism"
+    },
+    {
+        "start": 75.5,
+        "end": 75.61,
+        "confidence": 0.057,
+        "text": "in"
+    },
+    {
+        "start": 75.61,
+        "end": 76.12,
+        "confidence": 1.0,
+        "text": "Oklahoma"
+    },
+    {
+        "start": 76.12,
+        "end": 76.2,
+        "confidence": 0.643,
+        "text": "to"
+    },
+    {
+        "start": 76.2,
+        "end": 76.53,
+        "confidence": 0.968,
+        "text": "talk"
+    },
+    {
+        "start": 76.53,
+        "end": 76.66,
+        "confidence": 0.998,
+        "text": "with"
+    },
+    {
+        "start": 76.66,
+        "end": 77.08,
+        "confidence": 1.0,
+        "text": "inmates"
+    },
+    {
+        "start": 77.08,
+        "end": 77.19,
+        "confidence": 0.609,
+        "text": "and"
+    },
+    {
+        "start": 77.19,
+        "end": 77.6,
+        "confidence": 0.695,
+        "text": "correction"
+    },
+    {
+        "start": 77.6,
+        "end": 78.11,
+        "confidence": 0.981,
+        "text": "officers"
+    },
+    {
+        "start": 78.11,
+        "end": 78.39,
+        "confidence": 0.744,
+        "text": "about"
+    },
+    {
+        "start": 78.64,
+        "end": 79.36,
+        "confidence": 1.0,
+        "text": "rehabilitating"
+    },
+    {
+        "start": 79.36,
+        "end": 79.92,
+        "confidence": 0.998,
+        "text": "prisoners"
+    },
+    {
+        "start": 80.16,
+        "end": 80.54,
+        "confidence": 1.0,
+        "text": "preventing"
+    },
+    {
+        "start": 80.54,
+        "end": 80.78,
+        "confidence": 1.0,
+        "text": "more"
+    },
+    {
+        "start": 80.78,
+        "end": 81.14,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 81.14,
+        "end": 81.36,
+        "confidence": 1.0,
+        "text": "from"
+    },
+    {
+        "start": 81.36,
+        "end": 81.66,
+        "confidence": 1.0,
+        "text": "ending"
+    },
+    {
+        "start": 81.66,
+        "end": 81.82,
+        "confidence": 1.0,
+        "text": "up"
+    },
+    {
+        "start": 81.82,
+        "end": 82.05,
+        "confidence": 1.0,
+        "text": "there"
+    },
+    {
+        "start": 82.05,
+        "end": 82.18,
+        "confidence": 1.0,
+        "text": "in"
+    },
+    {
+        "start": 82.18,
+        "end": 82.26,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 82.26,
+        "end": 82.58,
+        "confidence": 1.0,
+        "text": "first"
+    },
+    {
+        "start": 82.58,
+        "end": 82.91,
+        "confidence": 0.994,
+        "text": "place"
+    },
+    {
+        "start": 84.0,
+        "end": 84.1,
+        "confidence": 1.0,
+        "text": "two"
+    },
+    {
+        "start": 84.1,
+        "end": 84.37,
+        "confidence": 1.0,
+        "text": "weeks"
+    },
+    {
+        "start": 84.37,
+        "end": 84.72,
+        "confidence": 0.991,
+        "text": "ago"
+    },
+    {
+        "start": 84.9,
+        "end": 85.02,
+        "confidence": 0.976,
+        "text": "I"
+    },
+    {
+        "start": 85.02,
+        "end": 85.3,
+        "confidence": 0.712,
+        "text": "visit"
+    },
+    {
+        "start": 85.3,
+        "end": 85.53,
+        "confidence": 0.987,
+        "text": "West"
+    },
+    {
+        "start": 85.53,
+        "end": 85.97,
+        "confidence": 1.0,
+        "text": "Virginia"
+    },
+    {
+        "start": 85.97,
+        "end": 86.12,
+        "confidence": 0.933,
+        "text": "to"
+    },
+    {
+        "start": 86.12,
+        "end": 86.31,
+        "confidence": 1.0,
+        "text": "meet"
+    },
+    {
+        "start": 86.31,
+        "end": 86.46,
+        "confidence": 1.0,
+        "text": "with"
+    },
+    {
+        "start": 86.46,
+        "end": 86.88,
+        "confidence": 1.0,
+        "text": "families"
+    },
+    {
+        "start": 86.88,
+        "end": 87.26,
+        "confidence": 0.605,
+        "text": "battling"
+    },
+    {
+        "start": 87.26,
+        "end": 87.81,
+        "confidence": 0.993,
+        "text": "prescription"
+    },
+    {
+        "start": 87.81,
+        "end": 88.14,
+        "confidence": 0.903,
+        "text": "drug"
+    },
+    {
+        "start": 88.14,
+        "end": 88.51,
+        "confidence": 0.943,
+        "text": "heroin"
+    },
+    {
+        "start": 88.51,
+        "end": 88.91,
+        "confidence": 0.951,
+        "text": "abuse"
+    },
+    {
+        "start": 89.44,
+        "end": 89.57,
+        "confidence": 1.0,
+        "text": "as"
+    },
+    {
+        "start": 89.57,
+        "end": 89.81,
+        "confidence": 1.0,
+        "text": "well"
+    },
+    {
+        "start": 89.81,
+        "end": 89.9,
+        "confidence": 1.0,
+        "text": "as"
+    },
+    {
+        "start": 89.9,
+        "end": 90.24,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 90.24,
+        "end": 90.35,
+        "confidence": 0.968,
+        "text": "who"
+    },
+    {
+        "start": 90.35,
+        "end": 90.44,
+        "confidence": 0.643,
+        "text": "are"
+    },
+    {
+        "start": 90.44,
+        "end": 90.98,
+        "confidence": 1.0,
+        "text": "working"
+    },
+    {
+        "start": 91.01,
+        "end": 91.2,
+        "confidence": 1.0,
+        "text": "on"
+    },
+    {
+        "start": 91.2,
+        "end": 91.35,
+        "confidence": 1.0,
+        "text": "new"
+    },
+    {
+        "start": 91.35,
+        "end": 91.95,
+        "confidence": 1.0,
+        "text": "solutions"
+    },
+    {
+        "start": 91.95,
+        "end": 92.1,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 92.1,
+        "end": 92.59,
+        "confidence": 1.0,
+        "text": "treatment"
+    },
+    {
+        "start": 92.59,
+        "end": 92.76,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 92.76,
+        "end": 93.52,
+        "confidence": 0.997,
+        "text": "rehabilitation"
+    },
+    {
+        "start": 94.74,
+        "end": 95.1,
+        "confidence": 1.0,
+        "text": "last"
+    },
+    {
+        "start": 95.1,
+        "end": 95.44,
+        "confidence": 1.0,
+        "text": "week"
+    },
+    {
+        "start": 95.56,
+        "end": 95.69,
+        "confidence": 1.0,
+        "text": "I"
+    },
+    {
+        "start": 95.69,
+        "end": 96.08,
+        "confidence": 0.616,
+        "text": "traveled"
+    },
+    {
+        "start": 96.08,
+        "end": 96.18,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 96.18,
+        "end": 96.65,
+        "confidence": 1.0,
+        "text": "Chicago"
+    },
+    {
+        "start": 96.65,
+        "end": 96.74,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 96.74,
+        "end": 97.09,
+        "confidence": 0.817,
+        "text": "thank"
+    },
+    {
+        "start": 97.09,
+        "end": 97.4,
+        "confidence": 0.961,
+        "text": "police"
+    },
+    {
+        "start": 97.4,
+        "end": 97.66,
+        "confidence": 0.981,
+        "text": "chiefs"
+    },
+    {
+        "start": 97.66,
+        "end": 97.87,
+        "confidence": 1.0,
+        "text": "from"
+    },
+    {
+        "start": 97.87,
+        "end": 98.17,
+        "confidence": 1.0,
+        "text": "across"
+    },
+    {
+        "start": 98.17,
+        "end": 98.26,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 98.26,
+        "end": 98.64,
+        "confidence": 1.0,
+        "text": "country"
+    },
+    {
+        "start": 98.64,
+        "end": 98.82,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 98.82,
+        "end": 99.14,
+        "confidence": 0.983,
+        "text": "all"
+    },
+    {
+        "start": 99.14,
+        "end": 99.32,
+        "confidence": 0.815,
+        "text": "that"
+    },
+    {
+        "start": 99.32,
+        "end": 99.45,
+        "confidence": 0.983,
+        "text": "their"
+    },
+    {
+        "start": 99.45,
+        "end": 99.88,
+        "confidence": 0.964,
+        "text": "officers"
+    },
+    {
+        "start": 99.88,
+        "end": 100.03,
+        "confidence": 0.832,
+        "text": "do"
+    },
+    {
+        "start": 100.03,
+        "end": 100.11,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 100.11,
+        "end": 100.49,
+        "confidence": 1.0,
+        "text": "protect"
+    },
+    {
+        "start": 100.49,
+        "end": 101.04,
+        "confidence": 0.998,
+        "text": "Americans"
+    },
+    {
+        "start": 101.61,
+        "end": 101.71,
+        "confidence": 0.86,
+        "text": "to"
+    },
+    {
+        "start": 101.71,
+        "end": 101.87,
+        "confidence": 1.0,
+        "text": "make"
+    },
+    {
+        "start": 101.87,
+        "end": 102.19,
+        "confidence": 1.0,
+        "text": "sure"
+    },
+    {
+        "start": 102.19,
+        "end": 102.46,
+        "confidence": 1.0,
+        "text": "they"
+    },
+    {
+        "start": 102.72,
+        "end": 102.94,
+        "confidence": 1.0,
+        "text": "get"
+    },
+    {
+        "start": 102.94,
+        "end": 103.03,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 103.03,
+        "end": 103.68,
+        "confidence": 1.0,
+        "text": "resources"
+    },
+    {
+        "start": 103.68,
+        "end": 103.81,
+        "confidence": 1.0,
+        "text": "they"
+    },
+    {
+        "start": 103.81,
+        "end": 104.0,
+        "confidence": 1.0,
+        "text": "need"
+    },
+    {
+        "start": 104.0,
+        "end": 104.07,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 104.07,
+        "end": 104.21,
+        "confidence": 1.0,
+        "text": "get"
+    },
+    {
+        "start": 104.21,
+        "end": 104.3,
+        "confidence": 0.893,
+        "text": "the"
+    },
+    {
+        "start": 104.3,
+        "end": 104.63,
+        "confidence": 1.0,
+        "text": "job"
+    },
+    {
+        "start": 104.63,
+        "end": 104.82,
+        "confidence": 0.987,
+        "text": "done"
+    },
+    {
+        "start": 105.49,
+        "end": 105.78,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 105.78,
+        "end": 105.87,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 105.87,
+        "end": 106.23,
+        "confidence": 1.0,
+        "text": "call"
+    },
+    {
+        "start": 106.23,
+        "end": 106.54,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 106.63,
+        "end": 106.99,
+        "confidence": 0.989,
+        "text": "common"
+    },
+    {
+        "start": 106.99,
+        "end": 107.32,
+        "confidence": 1.0,
+        "text": "sense"
+    },
+    {
+        "start": 107.32,
+        "end": 107.51,
+        "confidence": 1.0,
+        "text": "gun"
+    },
+    {
+        "start": 107.51,
+        "end": 107.9,
+        "confidence": 1.0,
+        "text": "safety"
+    },
+    {
+        "start": 107.9,
+        "end": 108.4,
+        "confidence": 1.0,
+        "text": "reforms"
+    },
+    {
+        "start": 108.4,
+        "end": 108.5,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 108.5,
+        "end": 108.63,
+        "confidence": 1.0,
+        "text": "would"
+    },
+    {
+        "start": 108.63,
+        "end": 108.9,
+        "confidence": 1.0,
+        "text": "make"
+    },
+    {
+        "start": 108.9,
+        "end": 109.51,
+        "confidence": 1.0,
+        "text": "officers"
+    },
+    {
+        "start": 109.74,
+        "end": 109.95,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 109.95,
+        "end": 110.04,
+        "confidence": 0.666,
+        "text": "their"
+    },
+    {
+        "start": 110.04,
+        "end": 110.55,
+        "confidence": 0.483,
+        "text": "communities"
+    },
+    {
+        "start": 110.55,
+        "end": 110.88,
+        "confidence": 0.562,
+        "text": "safe"
+    },
+    {
+        "start": 112.55,
+        "end": 112.75,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 112.75,
+        "end": 113.11,
+        "confidence": 1.0,
+        "text": "know"
+    },
+    {
+        "start": 113.11,
+        "end": 113.27,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 113.27,
+        "end": 113.66,
+        "confidence": 1.0,
+        "text": "having"
+    },
+    {
+        "start": 113.66,
+        "end": 114.12,
+        "confidence": 1.0,
+        "text": "millions"
+    },
+    {
+        "start": 114.12,
+        "end": 114.18,
+        "confidence": 1.0,
+        "text": "of"
+    },
+    {
+        "start": 114.18,
+        "end": 114.54,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 114.54,
+        "end": 114.68,
+        "confidence": 1.0,
+        "text": "in"
+    },
+    {
+        "start": 114.68,
+        "end": 114.75,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 114.75,
+        "end": 115.07,
+        "confidence": 1.0,
+        "text": "criminal"
+    },
+    {
+        "start": 115.07,
+        "end": 115.43,
+        "confidence": 1.0,
+        "text": "justice"
+    },
+    {
+        "start": 115.43,
+        "end": 115.81,
+        "confidence": 0.994,
+        "text": "system"
+    },
+    {
+        "start": 116.01,
+        "end": 116.35,
+        "confidence": 1.0,
+        "text": "without"
+    },
+    {
+        "start": 116.35,
+        "end": 116.57,
+        "confidence": 1.0,
+        "text": "any"
+    },
+    {
+        "start": 116.57,
+        "end": 116.92,
+        "confidence": 1.0,
+        "text": "ability"
+    },
+    {
+        "start": 116.92,
+        "end": 117.01,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 117.01,
+        "end": 117.28,
+        "confidence": 1.0,
+        "text": "find"
+    },
+    {
+        "start": 117.28,
+        "end": 117.32,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 117.32,
+        "end": 117.65,
+        "confidence": 1.0,
+        "text": "job"
+    },
+    {
+        "start": 117.65,
+        "end": 117.91,
+        "confidence": 1.0,
+        "text": "after"
+    },
+    {
+        "start": 117.91,
+        "end": 118.39,
+        "confidence": 0.997,
+        "text": "release"
+    },
+    {
+        "start": 118.51,
+        "end": 118.7,
+        "confidence": 1.0,
+        "text": "is"
+    },
+    {
+        "start": 118.7,
+        "end": 119.35,
+        "confidence": 1.0,
+        "text": "unsustainable"
+    },
+    {
+        "start": 120.23,
+        "end": 120.33,
+        "confidence": 0.65,
+        "text": "it's"
+    },
+    {
+        "start": 120.33,
+        "end": 120.59,
+        "confidence": 1.0,
+        "text": "bad"
+    },
+    {
+        "start": 120.59,
+        "end": 120.73,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 120.73,
+        "end": 121.38,
+        "confidence": 1.0,
+        "text": "communities"
+    },
+    {
+        "start": 121.74,
+        "end": 121.93,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 121.93,
+        "end": 122.03,
+        "confidence": 0.694,
+        "text": "it's"
+    },
+    {
+        "start": 122.03,
+        "end": 122.37,
+        "confidence": 1.0,
+        "text": "bad"
+    },
+    {
+        "start": 122.37,
+        "end": 122.56,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 122.56,
+        "end": 122.67,
+        "confidence": 0.963,
+        "text": "our"
+    },
+    {
+        "start": 122.67,
+        "end": 123.14,
+        "confidence": 0.994,
+        "text": "economy"
+    },
+    {
+        "start": 124.09,
+        "end": 124.29,
+        "confidence": 0.984,
+        "text": "so"
+    },
+    {
+        "start": 124.29,
+        "end": 124.41,
+        "confidence": 0.84,
+        "text": "on"
+    },
+    {
+        "start": 124.41,
+        "end": 124.81,
+        "confidence": 0.979,
+        "text": "Monday"
+    },
+    {
+        "start": 124.81,
+        "end": 124.98,
+        "confidence": 0.552,
+        "text": "all"
+    },
+    {
+        "start": 124.98,
+        "end": 125.39,
+        "confidence": 0.854,
+        "text": "travel"
+    },
+    {
+        "start": 125.39,
+        "end": 125.53,
+        "confidence": 0.96,
+        "text": "to"
+    },
+    {
+        "start": 125.53,
+        "end": 126.0,
+        "confidence": 1.0,
+        "text": "Newark"
+    },
+    {
+        "start": 126.0,
+        "end": 126.13,
+        "confidence": 1.0,
+        "text": "New"
+    },
+    {
+        "start": 126.13,
+        "end": 126.5,
+        "confidence": 0.988,
+        "text": "Jersey"
+    },
+    {
+        "start": 126.5,
+        "end": 126.57,
+        "confidence": 0.41,
+        "text": "to"
+    },
+    {
+        "start": 126.57,
+        "end": 127.05,
+        "confidence": 0.992,
+        "text": "highlight"
+    },
+    {
+        "start": 127.05,
+        "end": 127.43,
+        "confidence": 1.0,
+        "text": "efforts"
+    },
+    {
+        "start": 127.43,
+        "end": 127.52,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 127.52,
+        "end": 127.87,
+        "confidence": 1.0,
+        "text": "help"
+    },
+    {
+        "start": 127.87,
+        "end": 128.52,
+        "confidence": 0.997,
+        "text": "Americans"
+    },
+    {
+        "start": 129.06,
+        "end": 129.33,
+        "confidence": 0.8,
+        "text": "paid"
+    },
+    {
+        "start": 129.33,
+        "end": 129.44,
+        "confidence": 1.0,
+        "text": "their"
+    },
+    {
+        "start": 129.44,
+        "end": 129.8,
+        "confidence": 1.0,
+        "text": "debt"
+    },
+    {
+        "start": 129.95,
+        "end": 130.08,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 130.08,
+        "end": 130.75,
+        "confidence": 0.997,
+        "text": "society"
+    },
+    {
+        "start": 130.81,
+        "end": 131.06,
+        "confidence": 1.0,
+        "text": "re"
+    },
+    {
+        "start": 131.06,
+        "end": 131.59,
+        "confidence": 1.0,
+        "text": "integrate"
+    },
+    {
+        "start": 131.59,
+        "end": 131.91,
+        "confidence": 1.0,
+        "text": "back"
+    },
+    {
+        "start": 131.91,
+        "end": 132.19,
+        "confidence": 1.0,
+        "text": "into"
+    },
+    {
+        "start": 132.19,
+        "end": 132.3,
+        "confidence": 0.83,
+        "text": "their"
+    },
+    {
+        "start": 132.3,
+        "end": 132.93,
+        "confidence": 0.995,
+        "text": "communities"
+    },
+    {
+        "start": 133.83,
+        "end": 134.22,
+        "confidence": 1.0,
+        "text": "everyone"
+    },
+    {
+        "start": 134.22,
+        "end": 134.4,
+        "confidence": 1.0,
+        "text": "has"
+    },
+    {
+        "start": 134.4,
+        "end": 134.45,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 134.45,
+        "end": 134.63,
+        "confidence": 1.0,
+        "text": "role"
+    },
+    {
+        "start": 134.63,
+        "end": 134.7,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 134.7,
+        "end": 135.03,
+        "confidence": 0.99,
+        "text": "play"
+    },
+    {
+        "start": 135.2,
+        "end": 135.3,
+        "confidence": 0.686,
+        "text": "for"
+    },
+    {
+        "start": 135.3,
+        "end": 135.92,
+        "confidence": 0.98,
+        "text": "businesses"
+    },
+    {
+        "start": 135.92,
+        "end": 136.06,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 136.06,
+        "end": 136.12,
+        "confidence": 1.0,
+        "text": "are"
+    },
+    {
+        "start": 136.12,
+        "end": 136.49,
+        "confidence": 1.0,
+        "text": "hiring"
+    },
+    {
+        "start": 136.49,
+        "end": 136.71,
+        "confidence": 1.0,
+        "text": "ex"
+    },
+    {
+        "start": 136.71,
+        "end": 137.26,
+        "confidence": 0.998,
+        "text": "offenders"
+    },
+    {
+        "start": 137.68,
+        "end": 137.76,
+        "confidence": 0.691,
+        "text": "to"
+    },
+    {
+        "start": 137.76,
+        "end": 138.5,
+        "confidence": 0.198,
+        "text": "philanthropies"
+    },
+    {
+        "start": 138.5,
+        "end": 138.64,
+        "confidence": 0.954,
+        "text": "they're"
+    },
+    {
+        "start": 138.64,
+        "end": 139.19,
+        "confidence": 0.995,
+        "text": "supporting"
+    },
+    {
+        "start": 139.19,
+        "end": 139.76,
+        "confidence": 1.0,
+        "text": "education"
+    },
+    {
+        "start": 139.76,
+        "end": 139.86,
+        "confidence": 0.746,
+        "text": "and"
+    },
+    {
+        "start": 139.86,
+        "end": 140.16,
+        "confidence": 1.0,
+        "text": "training"
+    },
+    {
+        "start": 140.16,
+        "end": 140.68,
+        "confidence": 0.998,
+        "text": "programs"
+    },
+    {
+        "start": 141.33,
+        "end": 141.47,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 141.47,
+        "end": 141.57,
+        "confidence": 1.0,
+        "text": "I'll"
+    },
+    {
+        "start": 141.57,
+        "end": 141.82,
+        "confidence": 1.0,
+        "text": "keep"
+    },
+    {
+        "start": 141.82,
+        "end": 142.16,
+        "confidence": 1.0,
+        "text": "working"
+    },
+    {
+        "start": 142.16,
+        "end": 142.3,
+        "confidence": 1.0,
+        "text": "with"
+    },
+    {
+        "start": 142.3,
+        "end": 142.66,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 142.66,
+        "end": 142.84,
+        "confidence": 1.0,
+        "text": "in"
+    },
+    {
+        "start": 142.84,
+        "end": 143.16,
+        "confidence": 1.0,
+        "text": "both"
+    },
+    {
+        "start": 143.16,
+        "end": 143.64,
+        "confidence": 1.0,
+        "text": "parties"
+    },
+    {
+        "start": 143.68,
+        "end": 143.77,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 143.77,
+        "end": 144.02,
+        "confidence": 1.0,
+        "text": "get"
+    },
+    {
+        "start": 144.02,
+        "end": 144.42,
+        "confidence": 1.0,
+        "text": "criminal"
+    },
+    {
+        "start": 144.42,
+        "end": 144.8,
+        "confidence": 1.0,
+        "text": "justice"
+    },
+    {
+        "start": 144.8,
+        "end": 145.22,
+        "confidence": 1.0,
+        "text": "reform"
+    },
+    {
+        "start": 145.22,
+        "end": 145.57,
+        "confidence": 1.0,
+        "text": "bills"
+    },
+    {
+        "start": 145.71,
+        "end": 145.88,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 145.88,
+        "end": 146.06,
+        "confidence": 1.0,
+        "text": "my"
+    },
+    {
+        "start": 146.06,
+        "end": 146.48,
+        "confidence": 0.992,
+        "text": "desk"
+    },
+    {
+        "start": 146.99,
+        "end": 147.33,
+        "confidence": 1.0,
+        "text": "including"
+    },
+    {
+        "start": 147.33,
+        "end": 147.38,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 147.38,
+        "end": 148.0,
+        "confidence": 1.0,
+        "text": "bipartisan"
+    },
+    {
+        "start": 148.0,
+        "end": 148.25,
+        "confidence": 1.0,
+        "text": "bill"
+    },
+    {
+        "start": 148.25,
+        "end": 148.38,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 148.38,
+        "end": 148.52,
+        "confidence": 1.0,
+        "text": "would"
+    },
+    {
+        "start": 148.52,
+        "end": 148.93,
+        "confidence": 0.702,
+        "text": "reduce"
+    },
+    {
+        "start": 148.93,
+        "end": 149.44,
+        "confidence": 1.0,
+        "text": "mandatory"
+    },
+    {
+        "start": 149.44,
+        "end": 149.87,
+        "confidence": 1.0,
+        "text": "minimums"
+    },
+    {
+        "start": 149.87,
+        "end": 150.05,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 150.05,
+        "end": 150.4,
+        "confidence": 0.547,
+        "text": "non"
+    },
+    {
+        "start": 150.4,
+        "end": 150.82,
+        "confidence": 0.547,
+        "text": "violent"
+    },
+    {
+        "start": 150.82,
+        "end": 151.07,
+        "confidence": 1.0,
+        "text": "drug"
+    },
+    {
+        "start": 151.07,
+        "end": 151.57,
+        "confidence": 1.0,
+        "text": "offenders"
+    },
+    {
+        "start": 151.92,
+        "end": 152.16,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 152.16,
+        "end": 152.27,
+        "confidence": 0.616,
+        "text": "were"
+    },
+    {
+        "start": 152.27,
+        "end": 152.49,
+        "confidence": 0.332,
+        "text": "war"
+    },
+    {
+        "start": 152.49,
+        "end": 153.11,
+        "confidence": 0.961,
+        "text": "prisoners"
+    },
+    {
+        "start": 153.53,
+        "end": 153.87,
+        "confidence": 0.982,
+        "text": "shorter"
+    },
+    {
+        "start": 153.87,
+        "end": 154.43,
+        "confidence": 0.865,
+        "text": "sentences"
+    },
+    {
+        "start": 154.54,
+        "end": 154.94,
+        "confidence": 1.0,
+        "text": "if"
+    },
+    {
+        "start": 155.1,
+        "end": 155.27,
+        "confidence": 1.0,
+        "text": "they"
+    },
+    {
+        "start": 155.27,
+        "end": 155.72,
+        "confidence": 0.995,
+        "text": "complete"
+    },
+    {
+        "start": 155.72,
+        "end": 156.23,
+        "confidence": 0.992,
+        "text": "programs"
+    },
+    {
+        "start": 156.23,
+        "end": 156.36,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 156.36,
+        "end": 156.58,
+        "confidence": 1.0,
+        "text": "make"
+    },
+    {
+        "start": 156.58,
+        "end": 156.69,
+        "confidence": 0.804,
+        "text": "them"
+    },
+    {
+        "start": 156.69,
+        "end": 157.03,
+        "confidence": 1.0,
+        "text": "less"
+    },
+    {
+        "start": 157.08,
+        "end": 157.61,
+        "confidence": 0.994,
+        "text": "likely"
+    },
+    {
+        "start": 157.97,
+        "end": 158.0,
+        "confidence": 0.58,
+        "text": "I"
+    },
+    {
+        "start": 158.0,
+        "end": 158.29,
+        "confidence": 0.622,
+        "text": "commit"
+    },
+    {
+        "start": 158.29,
+        "end": 158.37,
+        "confidence": 0.646,
+        "text": "a"
+    },
+    {
+        "start": 158.37,
+        "end": 158.77,
+        "confidence": 1.0,
+        "text": "repeat"
+    },
+    {
+        "start": 158.77,
+        "end": 159.0,
+        "confidence": 0.131,
+        "text": "of"
+    },
+    {
+        "start": 160.2,
+        "end": 160.4,
+        "confidence": 0.76,
+        "text": "there's"
+    },
+    {
+        "start": 160.4,
+        "end": 160.46,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 160.46,
+        "end": 160.78,
+        "confidence": 1.0,
+        "text": "reason"
+    },
+    {
+        "start": 160.78,
+        "end": 160.97,
+        "confidence": 0.716,
+        "text": "good"
+    },
+    {
+        "start": 160.97,
+        "end": 161.23,
+        "confidence": 1.0,
+        "text": "people"
+    },
+    {
+        "start": 161.23,
+        "end": 161.54,
+        "confidence": 1.0,
+        "text": "across"
+    },
+    {
+        "start": 161.54,
+        "end": 161.61,
+        "confidence": 1.0,
+        "text": "the"
+    },
+    {
+        "start": 161.61,
+        "end": 161.95,
+        "confidence": 0.987,
+        "text": "country"
+    },
+    {
+        "start": 161.95,
+        "end": 162.25,
+        "confidence": 0.917,
+        "text": "coming"
+    },
+    {
+        "start": 162.25,
+        "end": 162.55,
+        "confidence": 1.0,
+        "text": "together"
+    },
+    {
+        "start": 162.55,
+        "end": 162.64,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 162.64,
+        "end": 163.03,
+        "confidence": 0.77,
+        "text": "reform"
+    },
+    {
+        "start": 163.03,
+        "end": 163.12,
+        "confidence": 1.0,
+        "text": "our"
+    },
+    {
+        "start": 163.12,
+        "end": 163.47,
+        "confidence": 0.986,
+        "text": "criminal"
+    },
+    {
+        "start": 163.47,
+        "end": 163.82,
+        "confidence": 1.0,
+        "text": "justice"
+    },
+    {
+        "start": 163.82,
+        "end": 164.15,
+        "confidence": 0.996,
+        "text": "system"
+    },
+    {
+        "start": 164.96,
+        "end": 165.25,
+        "confidence": 1.0,
+        "text": "because"
+    },
+    {
+        "start": 165.25,
+        "end": 165.37,
+        "confidence": 1.0,
+        "text": "it's"
+    },
+    {
+        "start": 165.37,
+        "end": 165.54,
+        "confidence": 1.0,
+        "text": "not"
+    },
+    {
+        "start": 165.54,
+        "end": 165.78,
+        "confidence": 1.0,
+        "text": "about"
+    },
+    {
+        "start": 165.78,
+        "end": 166.44,
+        "confidence": 0.997,
+        "text": "politics"
+    },
+    {
+        "start": 167.03,
+        "end": 167.09,
+        "confidence": 0.709,
+        "text": "it's"
+    },
+    {
+        "start": 167.09,
+        "end": 167.39,
+        "confidence": 1.0,
+        "text": "about"
+    },
+    {
+        "start": 167.39,
+        "end": 167.67,
+        "confidence": 1.0,
+        "text": "whether"
+    },
+    {
+        "start": 167.67,
+        "end": 167.92,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 167.92,
+        "end": 168.07,
+        "confidence": 1.0,
+        "text": "as"
+    },
+    {
+        "start": 168.07,
+        "end": 168.13,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 168.13,
+        "end": 168.52,
+        "confidence": 1.0,
+        "text": "nation"
+    },
+    {
+        "start": 168.52,
+        "end": 168.83,
+        "confidence": 0.883,
+        "text": "live"
+    },
+    {
+        "start": 168.83,
+        "end": 169.04,
+        "confidence": 0.997,
+        "text": "up"
+    },
+    {
+        "start": 169.22,
+        "end": 169.35,
+        "confidence": 1.0,
+        "text": "to"
+    },
+    {
+        "start": 169.35,
+        "end": 169.43,
+        "confidence": 1.0,
+        "text": "our"
+    },
+    {
+        "start": 169.43,
+        "end": 169.87,
+        "confidence": 1.0,
+        "text": "founding"
+    },
+    {
+        "start": 169.87,
+        "end": 170.29,
+        "confidence": 0.698,
+        "text": "ideals"
+    },
+    {
+        "start": 170.29,
+        "end": 170.37,
+        "confidence": 1.0,
+        "text": "of"
+    },
+    {
+        "start": 170.37,
+        "end": 170.75,
+        "confidence": 1.0,
+        "text": "liberty"
+    },
+    {
+        "start": 170.75,
+        "end": 170.88,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 170.88,
+        "end": 171.24,
+        "confidence": 1.0,
+        "text": "justice"
+    },
+    {
+        "start": 171.24,
+        "end": 171.46,
+        "confidence": 1.0,
+        "text": "for"
+    },
+    {
+        "start": 171.46,
+        "end": 171.63,
+        "confidence": 0.987,
+        "text": "all"
+    },
+    {
+        "start": 172.51,
+        "end": 172.66,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 172.66,
+        "end": 172.93,
+        "confidence": 1.0,
+        "text": "working"
+    },
+    {
+        "start": 172.93,
+        "end": 173.24,
+        "confidence": 1.0,
+        "text": "together"
+    },
+    {
+        "start": 173.24,
+        "end": 173.4,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 173.4,
+        "end": 173.53,
+        "confidence": 1.0,
+        "text": "can"
+    },
+    {
+        "start": 173.53,
+        "end": 173.72,
+        "confidence": 1.0,
+        "text": "make"
+    },
+    {
+        "start": 173.72,
+        "end": 174.2,
+        "confidence": 1.0,
+        "text": "sure"
+    },
+    {
+        "start": 174.28,
+        "end": 174.42,
+        "confidence": 1.0,
+        "text": "that"
+    },
+    {
+        "start": 174.42,
+        "end": 174.54,
+        "confidence": 1.0,
+        "text": "we"
+    },
+    {
+        "start": 174.54,
+        "end": 174.7,
+        "confidence": 0.662,
+        "text": "do"
+    },
+    {
+        "start": 175.8,
+        "end": 176.07,
+        "confidence": 0.885,
+        "text": "thanks"
+    },
+    {
+        "start": 176.07,
+        "end": 176.46,
+        "confidence": 0.129,
+        "text": "everybody"
+    },
+    {
+        "start": 176.81,
+        "end": 177.03,
+        "confidence": 0.862,
+        "text": "have"
+    },
+    {
+        "start": 177.03,
+        "end": 177.07,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 177.07,
+        "end": 177.3,
+        "confidence": 1.0,
+        "text": "great"
+    },
+    {
+        "start": 177.3,
+        "end": 177.75,
+        "confidence": 1.0,
+        "text": "weekend"
+    },
+    {
+        "start": 177.75,
+        "end": 177.91,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 177.91,
+        "end": 178.12,
+        "confidence": 1.0,
+        "text": "have"
+    },
+    {
+        "start": 178.12,
+        "end": 178.18,
+        "confidence": 1.0,
+        "text": "a"
+    },
+    {
+        "start": 178.18,
+        "end": 178.74,
+        "confidence": 1.0,
+        "text": "safe"
+    },
+    {
+        "start": 178.89,
+        "end": 179.07,
+        "confidence": 1.0,
+        "text": "and"
+    },
+    {
+        "start": 179.07,
+        "end": 179.39,
+        "confidence": 1.0,
+        "text": "happy"
+    },
+    {
+        "start": 179.39,
+        "end": 179.84,
+        "confidence": 0.994,
+        "text": "Halloween"
+    }
+]

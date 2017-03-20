@@ -1,0 +1,3 @@
+[submodule "watsoncloud/moviepy"]
+	path = watsoncloud/moviepy
+	url = git@github.com:Zulko/moviepy.git

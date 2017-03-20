@@ -1,0 +1,530 @@
+    {
+   "results": [
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "Rumer ", 
+               "confidence": 0.615, 
+               "word_confidence": [
+                  [
+                     "Rumer", 
+                     0.204
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "Rumer", 
+                     0.62, 
+                     2.25
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "Stephen just before I met you Jane Tomlinson ", 
+               "confidence": 0.353, 
+               "word_confidence": [
+                  [
+                     "Stephen", 
+                     0.426
+                  ], 
+                  [
+                     "just", 
+                     0.428
+                  ], 
+                  [
+                     "before", 
+                     0.962
+                  ], 
+                  [
+                     "I", 
+                     0.031
+                  ], 
+                  [
+                     "met", 
+                     0.039
+                  ], 
+                  [
+                     "you", 
+                     0.796
+                  ], 
+                  [
+                     "Jane", 
+                     0.467
+                  ], 
+                  [
+                     "Tomlinson", 
+                     0.002
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "Stephen", 
+                     12.44, 
+                     12.86
+                  ], 
+                  [
+                     "just", 
+                     12.86, 
+                     13.15
+                  ], 
+                  [
+                     "before", 
+                     13.48, 
+                     13.94
+                  ], 
+                  [
+                     "I", 
+                     13.98, 
+                     14.1
+                  ], 
+                  [
+                     "met", 
+                     14.1, 
+                     14.52
+                  ], 
+                  [
+                     "you", 
+                     14.52, 
+                     14.77
+                  ], 
+                  [
+                     "Jane", 
+                     15.05, 
+                     15.34
+                  ], 
+                  [
+                     "Tomlinson", 
+                     15.34, 
+                     16.21
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [
+            {
+               "start_time": 16.37, 
+               "alternatives": [
+                  {
+                     "confidence": 0.8661, 
+                     "word": "it's"
+                  }
+               ], 
+               "end_time": 16.51
+            }
+         ], 
+         "alternatives": [
+            {
+               "transcript": "it's an issue K. ", 
+               "confidence": 0.729, 
+               "word_confidence": [
+                  [
+                     "it's", 
+                     0.618
+                  ], 
+                  [
+                     "an", 
+                     0.722
+                  ], 
+                  [
+                     "issue", 
+                     0.982
+                  ], 
+                  [
+                     "K.", 
+                     0.338
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "it's", 
+                     16.37, 
+                     16.51
+                  ], 
+                  [
+                     "an", 
+                     16.51, 
+                     16.66
+                  ], 
+                  [
+                     "issue", 
+                     16.66, 
+                     17.25
+                  ], 
+                  [
+                     "K.", 
+                     17.9, 
+                     18.24
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [
+            {
+               "start_time": 19.81, 
+               "alternatives": [
+                  {
+                     "confidence": 0.8043, 
+                     "word": "NCCU"
+                  }
+               ], 
+               "end_time": 21.59
+            }
+         ], 
+         "alternatives": [
+            {
+               "transcript": "NCCU ", 
+               "confidence": 0.504, 
+               "word_confidence": [
+                  [
+                     "NCCU", 
+                     0.504
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "NCCU", 
+                     19.81, 
+                     21.59
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [
+            {
+               "start_time": 22.69, 
+               "alternatives": [
+                  {
+                     "confidence": 0.5455, 
+                     "word": "tell"
+                  }
+               ], 
+               "end_time": 22.91
+            }, 
+            {
+               "start_time": 23.77, 
+               "alternatives": [
+                  {
+                     "confidence": 0.9727, 
+                     "word": "was"
+                  }
+               ], 
+               "end_time": 23.93
+            }, 
+            {
+               "start_time": 23.93, 
+               "alternatives": [
+                  {
+                     "confidence": 0.976, 
+                     "word": "nice"
+                  }
+               ], 
+               "end_time": 24.2
+            }, 
+            {
+               "start_time": 24.2, 
+               "alternatives": [
+                  {
+                     "confidence": 0.991, 
+                     "word": "to"
+                  }
+               ], 
+               "end_time": 24.33
+            }, 
+            {
+               "start_time": 24.33, 
+               "alternatives": [
+                  {
+                     "confidence": 0.5548, 
+                     "word": "meet"
+                  }
+               ], 
+               "end_time": 24.7
+            }, 
+            {
+               "start_time": 24.7, 
+               "alternatives": [
+                  {
+                     "confidence": 0.5376, 
+                     "word": "them"
+                  }
+               ], 
+               "end_time": 24.9
+            }
+         ], 
+         "alternatives": [
+            {
+               "transcript": "tell your friends it was nice to meet them ", 
+               "confidence": 0.99, 
+               "word_confidence": [
+                  [
+                     "tell", 
+                     0.189
+                  ], 
+                  [
+                     "your", 
+                     0.982
+                  ], 
+                  [
+                     "friends", 
+                     0.827
+                  ], 
+                  [
+                     "it", 
+                     0.708
+                  ], 
+                  [
+                     "was", 
+                     0.938
+                  ], 
+                  [
+                     "nice", 
+                     0.894
+                  ], 
+                  [
+                     "to", 
+                     0.894
+                  ], 
+                  [
+                     "meet", 
+                     0.257
+                  ], 
+                  [
+                     "them", 
+                     0.814
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "tell", 
+                     22.69, 
+                     22.91
+                  ], 
+                  [
+                     "your", 
+                     22.91, 
+                     23.12
+                  ], 
+                  [
+                     "friends", 
+                     23.12, 
+                     23.67
+                  ], 
+                  [
+                     "it", 
+                     23.67, 
+                     23.77
+                  ], 
+                  [
+                     "was", 
+                     23.77, 
+                     23.93
+                  ], 
+                  [
+                     "nice", 
+                     23.93, 
+                     24.2
+                  ], 
+                  [
+                     "to", 
+                     24.2, 
+                     24.33
+                  ], 
+                  [
+                     "meet", 
+                     24.33, 
+                     24.7
+                  ], 
+                  [
+                     "them", 
+                     24.7, 
+                     24.9
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "you say ", 
+               "confidence": 0.5, 
+               "word_confidence": [
+                  [
+                     "you", 
+                     0.886
+                  ], 
+                  [
+                     "say", 
+                     0.259
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "you", 
+                     97.86, 
+                     98.16
+                  ], 
+                  [
+                     "say", 
+                     98.82, 
+                     99.1
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "you saw ", 
+               "confidence": 0.264, 
+               "word_confidence": [
+                  [
+                     "you", 
+                     0.195
+                  ], 
+                  [
+                     "saw", 
+                     0.102
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "you", 
+                     105.29, 
+                     105.43
+                  ], 
+                  [
+                     "saw", 
+                     105.43, 
+                     105.74
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "sure ", 
+               "confidence": 0.348, 
+               "word_confidence": [
+                  [
+                     "sure", 
+                     0.348
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "sure", 
+                     144.79, 
+                     144.98
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "no you ", 
+               "confidence": 0.653, 
+               "word_confidence": [
+                  [
+                     "no", 
+                     0.573
+                  ], 
+                  [
+                     "you", 
+                     0.763
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "no", 
+                     177.41, 
+                     177.71
+                  ], 
+                  [
+                     "you", 
+                     177.71, 
+                     177.93
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "xinmsn ", 
+               "confidence": 0.846, 
+               "word_confidence": [
+                  [
+                     "xinmsn", 
+                     0.846
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "xinmsn", 
+                     182.42, 
+                     183.1
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }, 
+      {
+         "word_alternatives": [], 
+         "alternatives": [
+            {
+               "transcript": "we ", 
+               "confidence": 0.646, 
+               "word_confidence": [
+                  [
+                     "we", 
+                     0.646
+                  ]
+               ], 
+               "timestamps": [
+                  [
+                     "we", 
+                     189.46, 
+                     189.63
+                  ]
+               ]
+            }
+         ], 
+         "final": true
+      }
+   ], 
+   "result_index": 0
+}
